@@ -1,7 +1,7 @@
 | File Name                    | Department  | Document Type              | Allowed Roles        | Reason                                                  |
 |------------------------------|-------------|----------------------------|----------------------|---------------------------------------------------------|
 | Financial_summary.md         | Finance     | Financial Summary          | Finance, C-Level     | Contains summarized financial performance data.         |
-| quaterly_financial_report.md | Finance     | Quaterly  Financial Report | Finance, C-Level     | Detailed confidential financial metrics and analytics.  |
+| quaterly_financial_report.md | Finance     | Quarterly  Financial Report | Finance, C-Level     | Detailed confidential financial metrics and analytics.  |
 | hr_data.csv                  | HR          | Employee Data              | HR, C-Level          | Contains sensitive employee-related information.        |
 | engineering_master_doc.md    | Engineering | Technical Documentation    | Engineering, C-Level | Internal system architecture and engineering processes. |
 | employee_handbook.md         | General     | Company Handbook           | Employee, C-Level.   | Company-wide policies applicable to all employees.      |
