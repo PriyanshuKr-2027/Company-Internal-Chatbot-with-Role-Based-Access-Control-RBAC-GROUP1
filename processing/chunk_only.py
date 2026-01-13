@@ -1,11 +1,13 @@
-print("🔥 CORRECT CHUNK SCRIPT IS RUNNING 🔥")
-
 import json
 import uuid
+import os
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-INPUT_FILE = "processing/cleaned_markdown.json"
-OUTPUT_FILE = "processing/chunked_markdown.json"
+# Get script directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+INPUT_FILE = os.path.join(script_dir, "cleaned_markdown.json")
+OUTPUT_FILE = os.path.join(script_dir, "chunked_markdown.json")
 
 # Department → allowed roles mapping
 DEPARTMENT_ROLE_MAP = {
@@ -16,10 +18,19 @@ DEPARTMENT_ROLE_MAP = {
     "general": ["employee", "admin"]
 }
 
-# Explicit document → department mapping (IMPORTANT)
+# Explicit document → department mapping (PRODUCTION SAFE)
 DOCUMENT_DEPARTMENT_MAP = {
     "financial_summary.md": "finance",
-    "quarterly_financial_report.md": "finance"
+    "quarterly_financial_report.md": "finance",
+    "engineering_master.md": "engineering",
+    "engineering_master_doc.md": "engineering",
+    "marketing_strategy.md": "marketing",
+    "employee_handbook.md": "general",
+    "market_report_q4_2024.md": "marketing",
+    "marketing_report_2024.md": "marketing",
+    "marketing_report_q1_2024.md": "marketing",
+    "marketing_report_q2_2024.md": "marketing",
+    "marketing_report_q3_2024.md": "marketing"
 }
 
 # Load cleaned markdown JSON
@@ -36,9 +47,11 @@ chunks = []
 
 for source_file, sections in data.items():
 
+    # Safety check
     if not isinstance(sections, list):
         continue
 
+    # Resolve department explicitly (default → general)
     department = DOCUMENT_DEPARTMENT_MAP.get(source_file, "general")
     allowed_roles = DEPARTMENT_ROLE_MAP[department]
 
@@ -46,7 +59,7 @@ for source_file, sections in data.items():
         content = section.get("content", "").strip()
         title = section.get("title", "")
 
-        # Skip empty sections
+        # Skip empty sections (ROOT etc.)
         if not content:
             continue
 
@@ -55,7 +68,7 @@ for source_file, sections in data.items():
         for text in split_texts:
             token_len = len(text)
 
-            # Enforce 300–512 token rule
+            # Enforce chunk quality (300–512 chars)
             if token_len < 300:
                 continue
 
