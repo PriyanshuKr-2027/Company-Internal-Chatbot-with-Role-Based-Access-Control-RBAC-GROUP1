@@ -1,5 +1,7 @@
 """Query Engine with Semantic Search + RBAC"""
 
+import re
+
 import chromadb
 from sentence_transformers import SentenceTransformer
 from chromadb.config import Settings
@@ -20,10 +22,16 @@ class QueryEngine:
             metadata={"description": "Company internal docs with RBAC metadata"}
         )
     
+    def normalize_query(self, query: str) -> str:
+        """Lightly normalize user input to reduce noise."""
+        query = query.strip().lower()
+        query = re.sub(r"\s+", " ", query)
+        return query
+
     def search(self, query: str, n_results: int = 5, user_role: str = "employee"):
         """Search documents with RBAC filtering"""
-        # Encode query
-        query_embedding = self.model.encode(query).tolist()
+        normalized = self.normalize_query(query)
+        query_embedding = self.model.encode(normalized).tolist()
         
         # Search in ChromaDB
         results = self.collection.query(
