@@ -48,13 +48,17 @@ class SimpleRAGChatbot:
         return query
     
     def search_documents(self, query: str, user_role: str, top_k: int = 5):
-        """Search documents with RBAC filtering"""
+        """Search documents with RBAC filtering - Optimized with normalized embeddings"""
         
         normalized = self.normalize_query(query)
-        query_embedding = self.model.encode(normalized).tolist()
+        # Use normalize_embeddings=True for better cosine similarity and faster search
+        query_embedding = self.model.encode(normalized, normalize_embeddings=True).tolist()
         
-        # Get role-specific filter
-        role_key = f"role_{user_role}"
+        # Map role to correct ChromaDB filter key
+        if user_role == "employee":
+            role_key = "role_general"  # Employee role uses role_general flag
+        else:
+            role_key = f"role_{user_role}"
         
         # Search with role filter
         results = self.collection.query(

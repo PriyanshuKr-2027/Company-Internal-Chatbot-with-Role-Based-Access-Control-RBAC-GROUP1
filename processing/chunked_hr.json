@@ -1,0 +1,1802 @@
+[
+  {
+    "chunk_id": "hr_88be76c8",
+    "text": "Employee Information:\nFull Name: Aadhya Patel\nEmployee ID: FINEMP1000\nRole: Sales Manager\nDepartment: Sales\nEmail: aadhya.patel@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1991-04-03\nDate of Joining: 2018-11-20\nManager ID: FINEMP1006\nSalary: ₹1,332,478.37\nLeave Balance: 22 days\nLeaves Taken: 11 days\nAttendance: 99.31%\nPerformance Rating: 3/5\nLast Review Date: 2024-05-21\n\nThis employee Aadhya Patel works as a Sales Manager in the Sales department, located in Ahmedabad. They joined the company on 2018-11-20 and report to manager FINEMP1006. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aadhya Patel (FINEMP1000)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 597,
+      "employee_id": "FINEMP1000",
+      "employee_name": "Aadhya Patel",
+      "employee_role": "Sales Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_d6e9e4e5",
+    "text": "Employee Information:\nFull Name: Isha Chowdhury\nEmployee ID: FINEMP1001\nRole: Credit Officer\nDepartment: Finance\nEmail: isha.chowdhury@fintechco.com\nLocation: Pune\nDate of Birth: 1995-09-21\nDate of Joining: 2021-05-20\nManager ID: FINEMP1005\nSalary: ₹1,491,158.23\nLeave Balance: 8 days\nLeaves Taken: 3 days\nAttendance: 85.15%\nPerformance Rating: 5/5\nLast Review Date: 2024-01-20\n\nThis employee Isha Chowdhury works as a Credit Officer in the Finance department, located in Pune. They joined the company on 2021-05-20 and report to manager FINEMP1005. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Chowdhury (FINEMP1001)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 597,
+      "employee_id": "FINEMP1001",
+      "employee_name": "Isha Chowdhury",
+      "employee_role": "Credit Officer",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_094d9c4d",
+    "text": "Employee Information:\nFull Name: Sakshi Malhotra\nEmployee ID: FINEMP1002\nRole: Relationship Manager\nDepartment: Sales\nEmail: sakshi.malhotra@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1993-08-05\nDate of Joining: 2023-04-17\nManager ID: FINEMP1008\nSalary: ₹1,448,927.95\nLeave Balance: 21 days\nLeaves Taken: 7 days\nAttendance: 86.31%\nPerformance Rating: 2/5\nLast Review Date: 2025-02-11\n\nThis employee Sakshi Malhotra works as a Relationship Manager in the Sales department, located in Ahmedabad. They joined the company on 2023-04-17 and report to manager FINEMP1008. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sakshi Malhotra (FINEMP1002)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 619,
+      "employee_id": "FINEMP1002",
+      "employee_name": "Sakshi Malhotra",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_803a5a17",
+    "text": "Employee Information:\nFull Name: Krishna Malhotra\nEmployee ID: FINEMP1003\nRole: Business Analyst\nDepartment: Business\nEmail: krishna.malhotra@fintechco.com\nLocation: Pune\nDate of Birth: 1984-12-20\nDate of Joining: 2018-06-10\nManager ID: FINEMP1003\nSalary: ₹519,865.26\nLeave Balance: 12 days\nLeaves Taken: 5 days\nAttendance: 84.34%\nPerformance Rating: 1/5\nLast Review Date: 2024-07-24\n\nThis employee Krishna Malhotra works as a Business Analyst in the Business department, located in Pune. They joined the company on 2018-06-10 and report to manager FINEMP1003. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Malhotra (FINEMP1003)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 608,
+      "employee_id": "FINEMP1003",
+      "employee_name": "Krishna Malhotra",
+      "employee_role": "Business Analyst",
+      "employee_dept": "Business"
+    }
+  },
+  {
+    "chunk_id": "hr_6aecb31c",
+    "text": "Employee Information:\nFull Name: Aadhya Saxena\nEmployee ID: FINEMP1004\nRole: Marketing Manager\nDepartment: Marketing\nEmail: aadhya.saxena@fintechco.com\nLocation: Lucknow\nDate of Birth: 1986-03-31\nDate of Joining: 2022-12-20\nManager ID: FINEMP1008\nSalary: ₹1,922,205.04\nLeave Balance: 21 days\nLeaves Taken: 10 days\nAttendance: 86.03%\nPerformance Rating: 3/5\nLast Review Date: 2024-01-12\n\nThis employee Aadhya Saxena works as a Marketing Manager in the Marketing department, located in Lucknow. They joined the company on 2022-12-20 and report to manager FINEMP1008. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aadhya Saxena (FINEMP1004)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 612,
+      "employee_id": "FINEMP1004",
+      "employee_name": "Aadhya Saxena",
+      "employee_role": "Marketing Manager",
+      "employee_dept": "Marketing"
+    }
+  },
+  {
+    "chunk_id": "hr_b0b5235e",
+    "text": "Employee Information:\nFull Name: Shaurya Joshi\nEmployee ID: FINEMP1005\nRole: Financial Analyst\nDepartment: Finance\nEmail: shaurya.joshi@fintechco.com\nLocation: Delhi\nDate of Birth: 1977-05-28\nDate of Joining: 2020-10-31\nManager ID: FINEMP1009\nSalary: ₹1,085,205.18\nLeave Balance: 4 days\nLeaves Taken: 4 days\nAttendance: 82.77%\nPerformance Rating: 2/5\nLast Review Date: 2024-09-15\n\nThis employee Shaurya Joshi works as a Financial Analyst in the Finance department, located in Delhi. They joined the company on 2020-10-31 and report to manager FINEMP1009. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Shaurya Joshi (FINEMP1005)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 602,
+      "employee_id": "FINEMP1005",
+      "employee_name": "Shaurya Joshi",
+      "employee_role": "Financial Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_d3d30ad0",
+    "text": "Employee Information:\nFull Name: Sara Sharma\nEmployee ID: FINEMP1006\nRole: QA Engineer\nDepartment: Quality Assurance\nEmail: sara.sharma@fintechco.com\nLocation: Delhi\nDate of Birth: 1989-12-26\nDate of Joining: 2021-05-15\nManager ID: FINEMP1004\nSalary: ₹660,681.91\nLeave Balance: 11 days\nLeaves Taken: 10 days\nAttendance: 96.49%\nPerformance Rating: 2/5\nLast Review Date: 2024-02-26\n\nThis employee Sara Sharma works as a QA Engineer in the Quality Assurance department, located in Delhi. They joined the company on 2021-05-15 and report to manager FINEMP1004. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sara Sharma (FINEMP1006)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 604,
+      "employee_id": "FINEMP1006",
+      "employee_name": "Sara Sharma",
+      "employee_role": "QA Engineer",
+      "employee_dept": "Quality Assurance"
+    }
+  },
+  {
+    "chunk_id": "hr_8cc44f95",
+    "text": "Employee Information:\nFull Name: Prisha Mehta\nEmployee ID: FINEMP1007\nRole: Marketing Manager\nDepartment: Marketing\nEmail: prisha.mehta@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1976-11-01\nDate of Joining: 2020-11-30\nManager ID: FINEMP1000\nSalary: ₹1,149,019.58\nLeave Balance: 11 days\nLeaves Taken: 10 days\nAttendance: 82.97%\nPerformance Rating: 4/5\nLast Review Date: 2024-01-31\n\nThis employee Prisha Mehta works as a Marketing Manager in the Marketing department, located in Bengaluru. They joined the company on 2020-11-30 and report to manager FINEMP1000. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Prisha Mehta (FINEMP1007)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 613,
+      "employee_id": "FINEMP1007",
+      "employee_name": "Prisha Mehta",
+      "employee_role": "Marketing Manager",
+      "employee_dept": "Marketing"
+    }
+  },
+  {
+    "chunk_id": "hr_fd270015",
+    "text": "Employee Information:\nFull Name: Aadhya Chowdhury\nEmployee ID: FINEMP1008\nRole: Customer Support\nDepartment: Operations\nEmail: aadhya.chowdhury@fintechco.com\nLocation: Mumbai\nDate of Birth: 1977-06-18\nDate of Joining: 2019-02-12\nManager ID: FINEMP1007\nSalary: ₹370,315.98\nLeave Balance: 7 days\nLeaves Taken: 5 days\nAttendance: 96.92%\nPerformance Rating: 5/5\nLast Review Date: 2024-08-07\n\nThis employee Aadhya Chowdhury works as a Customer Support in the Operations department, located in Mumbai. They joined the company on 2019-02-12 and report to manager FINEMP1007. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aadhya Chowdhury (FINEMP1008)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 615,
+      "employee_id": "FINEMP1008",
+      "employee_name": "Aadhya Chowdhury",
+      "employee_role": "Customer Support",
+      "employee_dept": "Operations"
+    }
+  },
+  {
+    "chunk_id": "hr_2c8403b0",
+    "text": "Employee Information:\nFull Name: Sai Gupta\nEmployee ID: FINEMP1009\nRole: Credit Officer\nDepartment: Finance\nEmail: sai.gupta@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1976-09-21\nDate of Joining: 2021-10-13\nManager ID: FINEMP1009\nSalary: ₹309,717.04\nLeave Balance: 10 days\nLeaves Taken: 4 days\nAttendance: 90.29%\nPerformance Rating: 2/5\nLast Review Date: 2025-04-22\n\nThis employee Sai Gupta works as a Credit Officer in the Finance department, located in Hyderabad. They joined the company on 2021-10-13 and report to manager FINEMP1009. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sai Gupta (FINEMP1009)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 591,
+      "employee_id": "FINEMP1009",
+      "employee_name": "Sai Gupta",
+      "employee_role": "Credit Officer",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_0cb47a4e",
+    "text": "Employee Information:\nFull Name: Vihaan Chowdhury\nEmployee ID: FINEMP1010\nRole: HR Manager\nDepartment: HR\nEmail: vihaan.chowdhury@fintechco.com\nLocation: Kolkata\nDate of Birth: 1996-12-31\nDate of Joining: 2021-10-23\nManager ID: FINEMP1007\nSalary: ₹1,201,969.11\nLeave Balance: 10 days\nLeaves Taken: 2 days\nAttendance: 99.98%\nPerformance Rating: 5/5\nLast Review Date: 2024-04-20\n\nThis employee Vihaan Chowdhury works as a HR Manager in the HR department, located in Kolkata. They joined the company on 2021-10-23 and report to manager FINEMP1007. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Chowdhury (FINEMP1010)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 592,
+      "employee_id": "FINEMP1010",
+      "employee_name": "Vihaan Chowdhury",
+      "employee_role": "HR Manager",
+      "employee_dept": "HR"
+    }
+  },
+  {
+    "chunk_id": "hr_116ccd43",
+    "text": "Employee Information:\nFull Name: Sai Sharma\nEmployee ID: FINEMP1011\nRole: Business Analyst\nDepartment: Business\nEmail: sai.sharma@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1975-03-02\nDate of Joining: 2021-05-21\nManager ID: FINEMP1004\nSalary: ₹1,129,637.90\nLeave Balance: 24 days\nLeaves Taken: 7 days\nAttendance: 97.41%\nPerformance Rating: 5/5\nLast Review Date: 2024-01-07\n\nThis employee Sai Sharma works as a Business Analyst in the Business department, located in Ahmedabad. They joined the company on 2021-05-21 and report to manager FINEMP1004. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sai Sharma (FINEMP1011)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 602,
+      "employee_id": "FINEMP1011",
+      "employee_name": "Sai Sharma",
+      "employee_role": "Business Analyst",
+      "employee_dept": "Business"
+    }
+  },
+  {
+    "chunk_id": "hr_70ba7538",
+    "text": "Employee Information:\nFull Name: Ishaan Patel\nEmployee ID: FINEMP1012\nRole: Security Engineer\nDepartment: Technology\nEmail: ishaan.patel@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1977-08-20\nDate of Joining: 2021-03-14\nManager ID: FINEMP1007\nSalary: ₹1,703,783.22\nLeave Balance: 13 days\nLeaves Taken: 1 days\nAttendance: 97.57%\nPerformance Rating: 3/5\nLast Review Date: 2024-11-28\n\nThis employee Ishaan Patel works as a Security Engineer in the Technology department, located in Hyderabad. They joined the company on 2021-03-14 and report to manager FINEMP1007. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ishaan Patel (FINEMP1012)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 614,
+      "employee_id": "FINEMP1012",
+      "employee_name": "Ishaan Patel",
+      "employee_role": "Security Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_0cafa004",
+    "text": "Employee Information:\nFull Name: Prisha Banerjee\nEmployee ID: FINEMP1013\nRole: Security Engineer\nDepartment: Technology\nEmail: prisha.banerjee@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1982-02-25\nDate of Joining: 2020-04-12\nManager ID: FINEMP1009\nSalary: ₹759,800.28\nLeave Balance: 8 days\nLeaves Taken: 2 days\nAttendance: 99.38%\nPerformance Rating: 1/5\nLast Review Date: 2024-11-06\n\nThis employee Prisha Banerjee works as a Security Engineer in the Technology department, located in Hyderabad. They joined the company on 2020-04-12 and report to manager FINEMP1009. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Prisha Banerjee (FINEMP1013)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 620,
+      "employee_id": "FINEMP1013",
+      "employee_name": "Prisha Banerjee",
+      "employee_role": "Security Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_9abab0d5",
+    "text": "Employee Information:\nFull Name: Isha Desai\nEmployee ID: FINEMP1014\nRole: Treasury Analyst\nDepartment: Finance\nEmail: isha.desai@fintechco.com\nLocation: Chennai\nDate of Birth: 1983-11-05\nDate of Joining: 2023-03-25\nManager ID: FINEMP1002\nSalary: ₹467,884.86\nLeave Balance: 17 days\nLeaves Taken: 8 days\nAttendance: 87.03%\nPerformance Rating: 3/5\nLast Review Date: 2024-06-18\n\nThis employee Isha Desai works as a Treasury Analyst in the Finance department, located in Chennai. They joined the company on 2023-03-25 and report to manager FINEMP1002. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Desai (FINEMP1014)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 594,
+      "employee_id": "FINEMP1014",
+      "employee_name": "Isha Desai",
+      "employee_role": "Treasury Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_a9807bc4",
+    "text": "Employee Information:\nFull Name: Ananya Singh\nEmployee ID: FINEMP1015\nRole: HR Manager\nDepartment: HR\nEmail: ananya.singh@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1994-07-14\nDate of Joining: 2018-08-17\nManager ID: FINEMP1001\nSalary: ₹1,074,426.00\nLeave Balance: 1 days\nLeaves Taken: 0 days\nAttendance: 86.84%\nPerformance Rating: 4/5\nLast Review Date: 2024-07-06\n\nThis employee Ananya Singh works as a HR Manager in the HR department, located in Ahmedabad. They joined the company on 2018-08-17 and report to manager FINEMP1001. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ananya Singh (FINEMP1015)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 583,
+      "employee_id": "FINEMP1015",
+      "employee_name": "Ananya Singh",
+      "employee_role": "HR Manager",
+      "employee_dept": "HR"
+    }
+  },
+  {
+    "chunk_id": "hr_41d843a4",
+    "text": "Employee Information:\nFull Name: Ananya Reddy\nEmployee ID: FINEMP1016\nRole: Relationship Manager\nDepartment: Sales\nEmail: ananya.reddy@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1980-10-27\nDate of Joining: 2020-07-10\nManager ID: FINEMP1003\nSalary: ₹1,876,390.13\nLeave Balance: 28 days\nLeaves Taken: 5 days\nAttendance: 85.52%\nPerformance Rating: 5/5\nLast Review Date: 2025-03-16\n\nThis employee Ananya Reddy works as a Relationship Manager in the Sales department, located in Ahmedabad. They joined the company on 2020-07-10 and report to manager FINEMP1003. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ananya Reddy (FINEMP1016)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 610,
+      "employee_id": "FINEMP1016",
+      "employee_name": "Ananya Reddy",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_1fc91a2d",
+    "text": "Employee Information:\nFull Name: Prisha Saxena\nEmployee ID: FINEMP1017\nRole: DevOps Engineer\nDepartment: Technology\nEmail: prisha.saxena@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1977-05-17\nDate of Joining: 2019-10-20\nManager ID: FINEMP1004\nSalary: ₹526,736.68\nLeave Balance: 20 days\nLeaves Taken: 6 days\nAttendance: 88.24%\nPerformance Rating: 1/5\nLast Review Date: 2025-04-10\n\nThis employee Prisha Saxena works as a DevOps Engineer in the Technology department, located in Bengaluru. They joined the company on 2019-10-20 and report to manager FINEMP1004. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Prisha Saxena (FINEMP1017)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 611,
+      "employee_id": "FINEMP1017",
+      "employee_name": "Prisha Saxena",
+      "employee_role": "DevOps Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_2e4c94a2",
+    "text": "Employee Information:\nFull Name: Vivaan Reddy\nEmployee ID: FINEMP1018\nRole: Compliance Officer\nDepartment: Compliance\nEmail: vivaan.reddy@fintechco.com\nLocation: Chennai\nDate of Birth: 1975-11-20\nDate of Joining: 2024-11-17\nManager ID: FINEMP1001\nSalary: ₹480,639.52\nLeave Balance: 29 days\nLeaves Taken: 17 days\nAttendance: 89.53%\nPerformance Rating: 5/5\nLast Review Date: 2024-05-09\n\nThis employee Vivaan Reddy works as a Compliance Officer in the Compliance department, located in Chennai. They joined the company on 2024-11-17 and report to manager FINEMP1001. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vivaan Reddy (FINEMP1018)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 611,
+      "employee_id": "FINEMP1018",
+      "employee_name": "Vivaan Reddy",
+      "employee_role": "Compliance Officer",
+      "employee_dept": "Compliance"
+    }
+  },
+  {
+    "chunk_id": "hr_8019f3c2",
+    "text": "Employee Information:\nFull Name: Isha Chowdhury\nEmployee ID: FINEMP1019\nRole: Relationship Manager\nDepartment: Sales\nEmail: isha.chowdhury@fintechco.com\nLocation: Lucknow\nDate of Birth: 1985-08-21\nDate of Joining: 2019-03-06\nManager ID: FINEMP1000\nSalary: ₹443,210.71\nLeave Balance: 11 days\nLeaves Taken: 3 days\nAttendance: 87.92%\nPerformance Rating: 5/5\nLast Review Date: 2024-12-20\n\nThis employee Isha Chowdhury works as a Relationship Manager in the Sales department, located in Lucknow. They joined the company on 2019-03-06 and report to manager FINEMP1000. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Chowdhury (FINEMP1019)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 610,
+      "employee_id": "FINEMP1019",
+      "employee_name": "Isha Chowdhury",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_a6ff2dbd",
+    "text": "Employee Information:\nFull Name: Krishna Verma\nEmployee ID: FINEMP1020\nRole: Sales Manager\nDepartment: Sales\nEmail: krishna.verma@fintechco.com\nLocation: Mumbai\nDate of Birth: 1978-06-25\nDate of Joining: 2024-11-29\nManager ID: FINEMP1007\nSalary: ₹969,422.69\nLeave Balance: 24 days\nLeaves Taken: 13 days\nAttendance: 94.35%\nPerformance Rating: 1/5\nLast Review Date: 2024-09-14\n\nThis employee Krishna Verma works as a Sales Manager in the Sales department, located in Mumbai. They joined the company on 2024-11-29 and report to manager FINEMP1007. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Verma (FINEMP1020)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 592,
+      "employee_id": "FINEMP1020",
+      "employee_name": "Krishna Verma",
+      "employee_role": "Sales Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_ce7dc1e3",
+    "text": "Employee Information:\nFull Name: Vihaan Verma\nEmployee ID: FINEMP1021\nRole: Treasury Analyst\nDepartment: Finance\nEmail: vihaan.verma@fintechco.com\nLocation: Delhi\nDate of Birth: 1976-07-27\nDate of Joining: 2022-05-29\nManager ID: FINEMP1006\nSalary: ₹1,940,128.43\nLeave Balance: 23 days\nLeaves Taken: 4 days\nAttendance: 83.76%\nPerformance Rating: 1/5\nLast Review Date: 2025-03-14\n\nThis employee Vihaan Verma works as a Treasury Analyst in the Finance department, located in Delhi. They joined the company on 2022-05-29 and report to manager FINEMP1006. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Verma (FINEMP1021)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 598,
+      "employee_id": "FINEMP1021",
+      "employee_name": "Vihaan Verma",
+      "employee_role": "Treasury Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_a7cdccf7",
+    "text": "Employee Information:\nFull Name: Sai Khan\nEmployee ID: FINEMP1022\nRole: Customer Support\nDepartment: Operations\nEmail: sai.khan@fintechco.com\nLocation: Kolkata\nDate of Birth: 1988-06-03\nDate of Joining: 2023-09-07\nManager ID: FINEMP1005\nSalary: ₹1,392,523.21\nLeave Balance: 9 days\nLeaves Taken: 4 days\nAttendance: 81.41%\nPerformance Rating: 1/5\nLast Review Date: 2025-03-31\n\nThis employee Sai Khan works as a Customer Support in the Operations department, located in Kolkata. They joined the company on 2023-09-07 and report to manager FINEMP1005. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sai Khan (FINEMP1022)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 595,
+      "employee_id": "FINEMP1022",
+      "employee_name": "Sai Khan",
+      "employee_role": "Customer Support",
+      "employee_dept": "Operations"
+    }
+  },
+  {
+    "chunk_id": "hr_093abb96",
+    "text": "Employee Information:\nFull Name: Krishna Gupta\nEmployee ID: FINEMP1023\nRole: Business Analyst\nDepartment: Business\nEmail: krishna.gupta@fintechco.com\nLocation: Lucknow\nDate of Birth: 1992-03-23\nDate of Joining: 2024-05-06\nManager ID: FINEMP1004\nSalary: ₹1,154,429.09\nLeave Balance: 16 days\nLeaves Taken: 7 days\nAttendance: 80.64%\nPerformance Rating: 2/5\nLast Review Date: 2024-01-06\n\nThis employee Krishna Gupta works as a Business Analyst in the Business department, located in Lucknow. They joined the company on 2024-05-06 and report to manager FINEMP1004. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Gupta (FINEMP1023)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 607,
+      "employee_id": "FINEMP1023",
+      "employee_name": "Krishna Gupta",
+      "employee_role": "Business Analyst",
+      "employee_dept": "Business"
+    }
+  },
+  {
+    "chunk_id": "hr_b6d80014",
+    "text": "Employee Information:\nFull Name: Reyansh Mehta\nEmployee ID: FINEMP1024\nRole: Security Engineer\nDepartment: Technology\nEmail: reyansh.mehta@fintechco.com\nLocation: Delhi\nDate of Birth: 1994-12-19\nDate of Joining: 2023-03-23\nManager ID: FINEMP1001\nSalary: ₹611,560.84\nLeave Balance: 29 days\nLeaves Taken: 8 days\nAttendance: 91.43%\nPerformance Rating: 2/5\nLast Review Date: 2025-01-17\n\nThis employee Reyansh Mehta works as a Security Engineer in the Technology department, located in Delhi. They joined the company on 2023-03-23 and report to manager FINEMP1001. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Reyansh Mehta (FINEMP1024)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 607,
+      "employee_id": "FINEMP1024",
+      "employee_name": "Reyansh Mehta",
+      "employee_role": "Security Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_afbb49be",
+    "text": "Employee Information:\nFull Name: Krishna Reddy\nEmployee ID: FINEMP1025\nRole: Marketing Manager\nDepartment: Marketing\nEmail: krishna.reddy@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1999-06-08\nDate of Joining: 2021-06-12\nManager ID: FINEMP1004\nSalary: ₹340,969.05\nLeave Balance: 18 days\nLeaves Taken: 4 days\nAttendance: 84.73%\nPerformance Rating: 3/5\nLast Review Date: 2024-04-05\n\nThis employee Krishna Reddy works as a Marketing Manager in the Marketing department, located in Hyderabad. They joined the company on 2021-06-12 and report to manager FINEMP1004. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Reddy (FINEMP1025)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 613,
+      "employee_id": "FINEMP1025",
+      "employee_name": "Krishna Reddy",
+      "employee_role": "Marketing Manager",
+      "employee_dept": "Marketing"
+    }
+  },
+  {
+    "chunk_id": "hr_97ba9e5f",
+    "text": "Employee Information:\nFull Name: Ishaan Patel\nEmployee ID: FINEMP1026\nRole: Blockchain Developer\nDepartment: Technology\nEmail: ishaan.patel@fintechco.com\nLocation: Delhi\nDate of Birth: 1983-12-04\nDate of Joining: 2024-08-25\nManager ID: FINEMP1007\nSalary: ₹1,836,299.49\nLeave Balance: 14 days\nLeaves Taken: 13 days\nAttendance: 86.13%\nPerformance Rating: 1/5\nLast Review Date: 2024-12-12\n\nThis employee Ishaan Patel works as a Blockchain Developer in the Technology department, located in Delhi. They joined the company on 2024-08-25 and report to manager FINEMP1007. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ishaan Patel (FINEMP1026)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 613,
+      "employee_id": "FINEMP1026",
+      "employee_name": "Ishaan Patel",
+      "employee_role": "Blockchain Developer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_4dba9e39",
+    "text": "Employee Information:\nFull Name: Myra Desai\nEmployee ID: FINEMP1027\nRole: Security Engineer\nDepartment: Technology\nEmail: myra.desai@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1978-10-20\nDate of Joining: 2019-02-25\nManager ID: FINEMP1009\nSalary: ₹1,710,679.64\nLeave Balance: 4 days\nLeaves Taken: 2 days\nAttendance: 96.01%\nPerformance Rating: 1/5\nLast Review Date: 2024-06-08\n\nThis employee Myra Desai works as a Security Engineer in the Technology department, located in Ahmedabad. They joined the company on 2019-02-25 and report to manager FINEMP1009. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Myra Desai (FINEMP1027)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 607,
+      "employee_id": "FINEMP1027",
+      "employee_name": "Myra Desai",
+      "employee_role": "Security Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_4f81af0d",
+    "text": "Employee Information:\nFull Name: Isha Nair\nEmployee ID: FINEMP1028\nRole: Compliance Officer\nDepartment: Compliance\nEmail: isha.nair@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1983-11-14\nDate of Joining: 2024-06-04\nManager ID: FINEMP1007\nSalary: ₹1,343,177.54\nLeave Balance: 20 days\nLeaves Taken: 6 days\nAttendance: 96.85%\nPerformance Rating: 4/5\nLast Review Date: 2025-03-14\n\nThis employee Isha Nair works as a Compliance Officer in the Compliance department, located in Bengaluru. They joined the company on 2024-06-04 and report to manager FINEMP1007. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Nair (FINEMP1028)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 607,
+      "employee_id": "FINEMP1028",
+      "employee_name": "Isha Nair",
+      "employee_role": "Compliance Officer",
+      "employee_dept": "Compliance"
+    }
+  },
+  {
+    "chunk_id": "hr_f2fd2897",
+    "text": "Employee Information:\nFull Name: Aditya Patel\nEmployee ID: FINEMP1029\nRole: Data Analyst\nDepartment: Data\nEmail: aditya.patel@fintechco.com\nLocation: Pune\nDate of Birth: 1997-06-28\nDate of Joining: 2020-01-17\nManager ID: FINEMP1009\nSalary: ₹1,128,053.06\nLeave Balance: 23 days\nLeaves Taken: 11 days\nAttendance: 97.48%\nPerformance Rating: 2/5\nLast Review Date: 2025-02-21\n\nThis employee Aditya Patel works as a Data Analyst in the Data department, located in Pune. They joined the company on 2020-01-17 and report to manager FINEMP1009. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aditya Patel (FINEMP1029)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 583,
+      "employee_id": "FINEMP1029",
+      "employee_name": "Aditya Patel",
+      "employee_role": "Data Analyst",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_69e39f66",
+    "text": "Employee Information:\nFull Name: Vihaan Reddy\nEmployee ID: FINEMP1030\nRole: Data Scientist\nDepartment: Data\nEmail: vihaan.reddy@fintechco.com\nLocation: Chennai\nDate of Birth: 1984-01-30\nDate of Joining: 2020-04-27\nManager ID: FINEMP1003\nSalary: ₹436,056.24\nLeave Balance: 25 days\nLeaves Taken: 13 days\nAttendance: 90.6%\nPerformance Rating: 5/5\nLast Review Date: 2024-02-07\n\nThis employee Vihaan Reddy works as a Data Scientist in the Data department, located in Chennai. They joined the company on 2020-04-27 and report to manager FINEMP1003. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Reddy (FINEMP1030)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 590,
+      "employee_id": "FINEMP1030",
+      "employee_name": "Vihaan Reddy",
+      "employee_role": "Data Scientist",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_e2b19dee",
+    "text": "Employee Information:\nFull Name: Isha Desai\nEmployee ID: FINEMP1031\nRole: Compliance Officer\nDepartment: Compliance\nEmail: isha.desai@fintechco.com\nLocation: Lucknow\nDate of Birth: 1996-06-26\nDate of Joining: 2023-12-16\nManager ID: FINEMP1009\nSalary: ₹1,363,418.93\nLeave Balance: 6 days\nLeaves Taken: 6 days\nAttendance: 84.54%\nPerformance Rating: 5/5\nLast Review Date: 2024-12-14\n\nThis employee Isha Desai works as a Compliance Officer in the Compliance department, located in Lucknow. They joined the company on 2023-12-16 and report to manager FINEMP1009. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Desai (FINEMP1031)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 605,
+      "employee_id": "FINEMP1031",
+      "employee_name": "Isha Desai",
+      "employee_role": "Compliance Officer",
+      "employee_dept": "Compliance"
+    }
+  },
+  {
+    "chunk_id": "hr_c309380c",
+    "text": "Employee Information:\nFull Name: Arjun Desai\nEmployee ID: FINEMP1032\nRole: Financial Analyst\nDepartment: Finance\nEmail: arjun.desai@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1985-01-29\nDate of Joining: 2024-10-21\nManager ID: FINEMP1009\nSalary: ₹1,069,322.39\nLeave Balance: 29 days\nLeaves Taken: 24 days\nAttendance: 96.83%\nPerformance Rating: 1/5\nLast Review Date: 2024-01-20\n\nThis employee Arjun Desai works as a Financial Analyst in the Finance department, located in Ahmedabad. They joined the company on 2024-10-21 and report to manager FINEMP1009. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Arjun Desai (FINEMP1032)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 606,
+      "employee_id": "FINEMP1032",
+      "employee_name": "Arjun Desai",
+      "employee_role": "Financial Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_56369bd9",
+    "text": "Employee Information:\nFull Name: Saanvi Bhat\nEmployee ID: FINEMP1033\nRole: Risk Analyst\nDepartment: Risk\nEmail: saanvi.bhat@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1985-10-07\nDate of Joining: 2022-06-26\nManager ID: FINEMP1003\nSalary: ₹1,513,021.23\nLeave Balance: 8 days\nLeaves Taken: 2 days\nAttendance: 97.62%\nPerformance Rating: 1/5\nLast Review Date: 2024-10-09\n\nThis employee Saanvi Bhat works as a Risk Analyst in the Risk department, located in Hyderabad. They joined the company on 2022-06-26 and report to manager FINEMP1003. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Saanvi Bhat (FINEMP1033)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 588,
+      "employee_id": "FINEMP1033",
+      "employee_name": "Saanvi Bhat",
+      "employee_role": "Risk Analyst",
+      "employee_dept": "Risk"
+    }
+  },
+  {
+    "chunk_id": "hr_5b5aee60",
+    "text": "Employee Information:\nFull Name: Diya Desai\nEmployee ID: FINEMP1034\nRole: Marketing Manager\nDepartment: Marketing\nEmail: diya.desai@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1980-09-05\nDate of Joining: 2023-01-09\nManager ID: FINEMP1002\nSalary: ₹1,243,560.93\nLeave Balance: 26 days\nLeaves Taken: 4 days\nAttendance: 97.76%\nPerformance Rating: 2/5\nLast Review Date: 2024-09-08\n\nThis employee Diya Desai works as a Marketing Manager in the Marketing department, located in Ahmedabad. They joined the company on 2023-01-09 and report to manager FINEMP1002. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Diya Desai (FINEMP1034)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 606,
+      "employee_id": "FINEMP1034",
+      "employee_name": "Diya Desai",
+      "employee_role": "Marketing Manager",
+      "employee_dept": "Marketing"
+    }
+  },
+  {
+    "chunk_id": "hr_63aafdb4",
+    "text": "Employee Information:\nFull Name: Arjun Chopra\nEmployee ID: FINEMP1035\nRole: Treasury Analyst\nDepartment: Finance\nEmail: arjun.chopra@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1991-04-25\nDate of Joining: 2019-02-20\nManager ID: FINEMP1005\nSalary: ₹1,507,283.59\nLeave Balance: 21 days\nLeaves Taken: 11 days\nAttendance: 80.39%\nPerformance Rating: 3/5\nLast Review Date: 2025-04-04\n\nThis employee Arjun Chopra works as a Treasury Analyst in the Finance department, located in Bengaluru. They joined the company on 2019-02-20 and report to manager FINEMP1005. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Arjun Chopra (FINEMP1035)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 607,
+      "employee_id": "FINEMP1035",
+      "employee_name": "Arjun Chopra",
+      "employee_role": "Treasury Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_9d5a3e19",
+    "text": "Employee Information:\nFull Name: Avni Khan\nEmployee ID: FINEMP1036\nRole: Business Analyst\nDepartment: Business\nEmail: avni.khan@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1977-11-16\nDate of Joining: 2022-05-08\nManager ID: FINEMP1002\nSalary: ₹1,875,290.40\nLeave Balance: 17 days\nLeaves Taken: 10 days\nAttendance: 91.5%\nPerformance Rating: 4/5\nLast Review Date: 2024-07-05\n\nThis employee Avni Khan works as a Business Analyst in the Business department, located in Hyderabad. They joined the company on 2022-05-08 and report to manager FINEMP1002. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Avni Khan (FINEMP1036)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 599,
+      "employee_id": "FINEMP1036",
+      "employee_name": "Avni Khan",
+      "employee_role": "Business Analyst",
+      "employee_dept": "Business"
+    }
+  },
+  {
+    "chunk_id": "hr_0e8d41b6",
+    "text": "Employee Information:\nFull Name: Vihaan Garg\nEmployee ID: FINEMP1037\nRole: Sales Manager\nDepartment: Sales\nEmail: vihaan.garg@fintechco.com\nLocation: Jaipur\nDate of Birth: 1986-08-12\nDate of Joining: 2023-02-05\nManager ID: FINEMP1001\nSalary: ₹403,990.23\nLeave Balance: 19 days\nLeaves Taken: 19 days\nAttendance: 99.74%\nPerformance Rating: 5/5\nLast Review Date: 2024-01-10\n\nThis employee Vihaan Garg works as a Sales Manager in the Sales department, located in Jaipur. They joined the company on 2023-02-05 and report to manager FINEMP1001. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Garg (FINEMP1037)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 586,
+      "employee_id": "FINEMP1037",
+      "employee_name": "Vihaan Garg",
+      "employee_role": "Sales Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_d3448582",
+    "text": "Employee Information:\nFull Name: Diya Bhat\nEmployee ID: FINEMP1038\nRole: Security Engineer\nDepartment: Technology\nEmail: diya.bhat@fintechco.com\nLocation: Pune\nDate of Birth: 1994-01-23\nDate of Joining: 2018-02-22\nManager ID: FINEMP1007\nSalary: ₹1,152,589.39\nLeave Balance: 4 days\nLeaves Taken: 3 days\nAttendance: 92.5%\nPerformance Rating: 4/5\nLast Review Date: 2024-05-13\n\nThis employee Diya Bhat works as a Security Engineer in the Technology department, located in Pune. They joined the company on 2018-02-22 and report to manager FINEMP1007. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Diya Bhat (FINEMP1038)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 593,
+      "employee_id": "FINEMP1038",
+      "employee_name": "Diya Bhat",
+      "employee_role": "Security Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_cb13d4df",
+    "text": "Employee Information:\nFull Name: Sai Desai\nEmployee ID: FINEMP1039\nRole: DevOps Engineer\nDepartment: Technology\nEmail: sai.desai@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1994-08-25\nDate of Joining: 2021-08-28\nManager ID: FINEMP1005\nSalary: ₹1,246,312.40\nLeave Balance: 10 days\nLeaves Taken: 3 days\nAttendance: 90.36%\nPerformance Rating: 5/5\nLast Review Date: 2024-10-24\n\nThis employee Sai Desai works as a DevOps Engineer in the Technology department, located in Bengaluru. They joined the company on 2021-08-28 and report to manager FINEMP1005. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sai Desai (FINEMP1039)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 601,
+      "employee_id": "FINEMP1039",
+      "employee_name": "Sai Desai",
+      "employee_role": "DevOps Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_4cc38382",
+    "text": "Employee Information:\nFull Name: Vihaan Reddy\nEmployee ID: FINEMP1040\nRole: QA Engineer\nDepartment: Quality Assurance\nEmail: vihaan.reddy@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1985-02-08\nDate of Joining: 2021-04-23\nManager ID: FINEMP1006\nSalary: ₹1,039,818.46\nLeave Balance: 8 days\nLeaves Taken: 7 days\nAttendance: 94.28%\nPerformance Rating: 3/5\nLast Review Date: 2024-03-24\n\nThis employee Vihaan Reddy works as a QA Engineer in the Quality Assurance department, located in Hyderabad. They joined the company on 2021-04-23 and report to manager FINEMP1006. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Reddy (FINEMP1040)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 615,
+      "employee_id": "FINEMP1040",
+      "employee_name": "Vihaan Reddy",
+      "employee_role": "QA Engineer",
+      "employee_dept": "Quality Assurance"
+    }
+  },
+  {
+    "chunk_id": "hr_50998cb9",
+    "text": "Employee Information:\nFull Name: Shaurya Joshi\nEmployee ID: FINEMP1041\nRole: Relationship Manager\nDepartment: Sales\nEmail: shaurya.joshi@fintechco.com\nLocation: Mumbai\nDate of Birth: 1995-01-15\nDate of Joining: 2023-06-15\nManager ID: FINEMP1000\nSalary: ₹1,703,490.23\nLeave Balance: 7 days\nLeaves Taken: 6 days\nAttendance: 90.84%\nPerformance Rating: 1/5\nLast Review Date: 2024-07-30\n\nThis employee Shaurya Joshi works as a Relationship Manager in the Sales department, located in Mumbai. They joined the company on 2023-06-15 and report to manager FINEMP1000. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Shaurya Joshi (FINEMP1041)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 606,
+      "employee_id": "FINEMP1041",
+      "employee_name": "Shaurya Joshi",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_10b1b5af",
+    "text": "Employee Information:\nFull Name: Vihaan Desai\nEmployee ID: FINEMP1042\nRole: Customer Support\nDepartment: Operations\nEmail: vihaan.desai@fintechco.com\nLocation: Pune\nDate of Birth: 1992-12-01\nDate of Joining: 2024-03-28\nManager ID: FINEMP1007\nSalary: ₹1,785,167.47\nLeave Balance: 16 days\nLeaves Taken: 1 days\nAttendance: 89.15%\nPerformance Rating: 4/5\nLast Review Date: 2025-04-28\n\nThis employee Vihaan Desai works as a Customer Support in the Operations department, located in Pune. They joined the company on 2024-03-28 and report to manager FINEMP1007. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Desai (FINEMP1042)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 602,
+      "employee_id": "FINEMP1042",
+      "employee_name": "Vihaan Desai",
+      "employee_role": "Customer Support",
+      "employee_dept": "Operations"
+    }
+  },
+  {
+    "chunk_id": "hr_7802e1c3",
+    "text": "Employee Information:\nFull Name: Aadhya Singh\nEmployee ID: FINEMP1043\nRole: Sales Manager\nDepartment: Sales\nEmail: aadhya.singh@fintechco.com\nLocation: Pune\nDate of Birth: 1984-05-24\nDate of Joining: 2024-06-02\nManager ID: FINEMP1000\nSalary: ₹849,227.01\nLeave Balance: 17 days\nLeaves Taken: 14 days\nAttendance: 91.97%\nPerformance Rating: 4/5\nLast Review Date: 2024-02-16\n\nThis employee Aadhya Singh works as a Sales Manager in the Sales department, located in Pune. They joined the company on 2024-06-02 and report to manager FINEMP1000. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aadhya Singh (FINEMP1043)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 585,
+      "employee_id": "FINEMP1043",
+      "employee_name": "Aadhya Singh",
+      "employee_role": "Sales Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_2f7e764b",
+    "text": "Employee Information:\nFull Name: Isha Desai\nEmployee ID: FINEMP1044\nRole: Software Engineer\nDepartment: Technology\nEmail: isha.desai@fintechco.com\nLocation: Chennai\nDate of Birth: 1988-12-22\nDate of Joining: 2021-12-03\nManager ID: FINEMP1008\nSalary: ₹667,541.44\nLeave Balance: 9 days\nLeaves Taken: 1 days\nAttendance: 88.61%\nPerformance Rating: 5/5\nLast Review Date: 2024-09-13\n\nThis employee Isha Desai works as a Software Engineer in the Technology department, located in Chennai. They joined the company on 2021-12-03 and report to manager FINEMP1008. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Desai (FINEMP1044)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 601,
+      "employee_id": "FINEMP1044",
+      "employee_name": "Isha Desai",
+      "employee_role": "Software Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_75ff4407",
+    "text": "Employee Information:\nFull Name: Ananya Banerjee\nEmployee ID: FINEMP1045\nRole: Data Analyst\nDepartment: Data\nEmail: ananya.banerjee@fintechco.com\nLocation: Mumbai\nDate of Birth: 1996-04-07\nDate of Joining: 2023-10-29\nManager ID: FINEMP1000\nSalary: ₹911,824.83\nLeave Balance: 14 days\nLeaves Taken: 4 days\nAttendance: 99.1%\nPerformance Rating: 4/5\nLast Review Date: 2025-02-05\n\nThis employee Ananya Banerjee works as a Data Analyst in the Data department, located in Mumbai. They joined the company on 2023-10-29 and report to manager FINEMP1000. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ananya Banerjee (FINEMP1045)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 592,
+      "employee_id": "FINEMP1045",
+      "employee_name": "Ananya Banerjee",
+      "employee_role": "Data Analyst",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_9c937256",
+    "text": "Employee Information:\nFull Name: Shaurya Joshi\nEmployee ID: FINEMP1046\nRole: Marketing Manager\nDepartment: Marketing\nEmail: shaurya.joshi@fintechco.com\nLocation: Kolkata\nDate of Birth: 1987-12-21\nDate of Joining: 2018-11-03\nManager ID: FINEMP1008\nSalary: ₹865,704.81\nLeave Balance: 19 days\nLeaves Taken: 17 days\nAttendance: 94.1%\nPerformance Rating: 1/5\nLast Review Date: 2024-04-13\n\nThis employee Shaurya Joshi works as a Marketing Manager in the Marketing department, located in Kolkata. They joined the company on 2018-11-03 and report to manager FINEMP1008. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Shaurya Joshi (FINEMP1046)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 609,
+      "employee_id": "FINEMP1046",
+      "employee_name": "Shaurya Joshi",
+      "employee_role": "Marketing Manager",
+      "employee_dept": "Marketing"
+    }
+  },
+  {
+    "chunk_id": "hr_23a1bf4a",
+    "text": "Employee Information:\nFull Name: Ishaan Singh\nEmployee ID: FINEMP1047\nRole: Business Analyst\nDepartment: Business\nEmail: ishaan.singh@fintechco.com\nLocation: Chennai\nDate of Birth: 1981-11-25\nDate of Joining: 2018-11-25\nManager ID: FINEMP1007\nSalary: ₹1,858,162.08\nLeave Balance: 24 days\nLeaves Taken: 24 days\nAttendance: 86.19%\nPerformance Rating: 5/5\nLast Review Date: 2025-03-06\n\nThis employee Ishaan Singh works as a Business Analyst in the Business department, located in Chennai. They joined the company on 2018-11-25 and report to manager FINEMP1007. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ishaan Singh (FINEMP1047)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 605,
+      "employee_id": "FINEMP1047",
+      "employee_name": "Ishaan Singh",
+      "employee_role": "Business Analyst",
+      "employee_dept": "Business"
+    }
+  },
+  {
+    "chunk_id": "hr_c69b5d37",
+    "text": "Employee Information:\nFull Name: Isha Singh\nEmployee ID: FINEMP1048\nRole: Financial Analyst\nDepartment: Finance\nEmail: isha.singh@fintechco.com\nLocation: Delhi\nDate of Birth: 1994-10-22\nDate of Joining: 2023-03-26\nManager ID: FINEMP1008\nSalary: ₹1,386,670.96\nLeave Balance: 14 days\nLeaves Taken: 7 days\nAttendance: 98.85%\nPerformance Rating: 3/5\nLast Review Date: 2024-07-31\n\nThis employee Isha Singh works as a Financial Analyst in the Finance department, located in Delhi. They joined the company on 2023-03-26 and report to manager FINEMP1008. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Singh (FINEMP1048)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 594,
+      "employee_id": "FINEMP1048",
+      "employee_name": "Isha Singh",
+      "employee_role": "Financial Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_4ed99b9d",
+    "text": "Employee Information:\nFull Name: Arjun Garg\nEmployee ID: FINEMP1049\nRole: Product Manager\nDepartment: Product\nEmail: arjun.garg@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1977-09-17\nDate of Joining: 2024-05-08\nManager ID: FINEMP1005\nSalary: ₹1,447,037.81\nLeave Balance: 13 days\nLeaves Taken: 4 days\nAttendance: 85.89%\nPerformance Rating: 5/5\nLast Review Date: 2024-02-01\n\nThis employee Arjun Garg works as a Product Manager in the Product department, located in Hyderabad. They joined the company on 2024-05-08 and report to manager FINEMP1005. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Arjun Garg (FINEMP1049)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 598,
+      "employee_id": "FINEMP1049",
+      "employee_name": "Arjun Garg",
+      "employee_role": "Product Manager",
+      "employee_dept": "Product"
+    }
+  },
+  {
+    "chunk_id": "hr_40610674",
+    "text": "Employee Information:\nFull Name: Myra Gupta\nEmployee ID: FINEMP1050\nRole: QA Engineer\nDepartment: Quality Assurance\nEmail: myra.gupta@fintechco.com\nLocation: Lucknow\nDate of Birth: 1982-10-12\nDate of Joining: 2021-02-01\nManager ID: FINEMP1008\nSalary: ₹865,633.34\nLeave Balance: 25 days\nLeaves Taken: 6 days\nAttendance: 97.9%\nPerformance Rating: 1/5\nLast Review Date: 2024-05-17\n\nThis employee Myra Gupta works as a QA Engineer in the Quality Assurance department, located in Lucknow. They joined the company on 2021-02-01 and report to manager FINEMP1008. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Myra Gupta (FINEMP1050)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 603,
+      "employee_id": "FINEMP1050",
+      "employee_name": "Myra Gupta",
+      "employee_role": "QA Engineer",
+      "employee_dept": "Quality Assurance"
+    }
+  },
+  {
+    "chunk_id": "hr_cb038801",
+    "text": "Employee Information:\nFull Name: Reyansh Saxena\nEmployee ID: FINEMP1051\nRole: Security Engineer\nDepartment: Technology\nEmail: reyansh.saxena@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1992-10-09\nDate of Joining: 2023-09-01\nManager ID: FINEMP1000\nSalary: ₹1,064,443.02\nLeave Balance: 26 days\nLeaves Taken: 2 days\nAttendance: 80.35%\nPerformance Rating: 4/5\nLast Review Date: 2025-04-15\n\nThis employee Reyansh Saxena works as a Security Engineer in the Technology department, located in Bengaluru. They joined the company on 2023-09-01 and report to manager FINEMP1000. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Reyansh Saxena (FINEMP1051)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 620,
+      "employee_id": "FINEMP1051",
+      "employee_name": "Reyansh Saxena",
+      "employee_role": "Security Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_29d6fb88",
+    "text": "Employee Information:\nFull Name: Ishaan Singh\nEmployee ID: FINEMP1052\nRole: Relationship Manager\nDepartment: Sales\nEmail: ishaan.singh@fintechco.com\nLocation: Kolkata\nDate of Birth: 1998-05-14\nDate of Joining: 2018-07-09\nManager ID: FINEMP1000\nSalary: ₹1,673,343.38\nLeave Balance: 0 days\nLeaves Taken: 0 days\nAttendance: 80.95%\nPerformance Rating: 4/5\nLast Review Date: 2024-06-08\n\nThis employee Ishaan Singh works as a Relationship Manager in the Sales department, located in Kolkata. They joined the company on 2018-07-09 and report to manager FINEMP1000. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ishaan Singh (FINEMP1052)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 605,
+      "employee_id": "FINEMP1052",
+      "employee_name": "Ishaan Singh",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_b3b31872",
+    "text": "Employee Information:\nFull Name: Isha Sharma\nEmployee ID: FINEMP1053\nRole: Customer Support\nDepartment: Operations\nEmail: isha.sharma@fintechco.com\nLocation: Kolkata\nDate of Birth: 1991-12-07\nDate of Joining: 2020-11-08\nManager ID: FINEMP1002\nSalary: ₹1,502,270.01\nLeave Balance: 7 days\nLeaves Taken: 7 days\nAttendance: 91.65%\nPerformance Rating: 5/5\nLast Review Date: 2024-05-12\n\nThis employee Isha Sharma works as a Customer Support in the Operations department, located in Kolkata. They joined the company on 2020-11-08 and report to manager FINEMP1002. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Isha Sharma (FINEMP1053)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 604,
+      "employee_id": "FINEMP1053",
+      "employee_name": "Isha Sharma",
+      "employee_role": "Customer Support",
+      "employee_dept": "Operations"
+    }
+  },
+  {
+    "chunk_id": "hr_6b3072a0",
+    "text": "Employee Information:\nFull Name: Ishaan Singh\nEmployee ID: FINEMP1054\nRole: Data Scientist\nDepartment: Data\nEmail: ishaan.singh@fintechco.com\nLocation: Delhi\nDate of Birth: 1975-05-28\nDate of Joining: 2019-10-12\nManager ID: FINEMP1004\nSalary: ₹1,675,521.46\nLeave Balance: 21 days\nLeaves Taken: 4 days\nAttendance: 84.17%\nPerformance Rating: 1/5\nLast Review Date: 2024-06-21\n\nThis employee Ishaan Singh works as a Data Scientist in the Data department, located in Delhi. They joined the company on 2019-10-12 and report to manager FINEMP1004. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ishaan Singh (FINEMP1054)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 588,
+      "employee_id": "FINEMP1054",
+      "employee_name": "Ishaan Singh",
+      "employee_role": "Data Scientist",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_3eb13220",
+    "text": "Employee Information:\nFull Name: Aditya Saxena\nEmployee ID: FINEMP1055\nRole: HR Manager\nDepartment: HR\nEmail: aditya.saxena@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1981-08-27\nDate of Joining: 2024-09-30\nManager ID: FINEMP1009\nSalary: ₹745,459.27\nLeave Balance: 11 days\nLeaves Taken: 2 days\nAttendance: 91.63%\nPerformance Rating: 1/5\nLast Review Date: 2024-03-07\n\nThis employee Aditya Saxena works as a HR Manager in the HR department, located in Ahmedabad. They joined the company on 2024-09-30 and report to manager FINEMP1009. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aditya Saxena (FINEMP1055)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 585,
+      "employee_id": "FINEMP1055",
+      "employee_name": "Aditya Saxena",
+      "employee_role": "HR Manager",
+      "employee_dept": "HR"
+    }
+  },
+  {
+    "chunk_id": "hr_4023d738",
+    "text": "Employee Information:\nFull Name: Saanvi Bhat\nEmployee ID: FINEMP1056\nRole: UX Designer\nDepartment: Design\nEmail: saanvi.bhat@fintechco.com\nLocation: Delhi\nDate of Birth: 1980-10-25\nDate of Joining: 2018-08-15\nManager ID: FINEMP1004\nSalary: ₹685,364.51\nLeave Balance: 2 days\nLeaves Taken: 1 days\nAttendance: 99.67%\nPerformance Rating: 2/5\nLast Review Date: 2024-06-24\n\nThis employee Saanvi Bhat works as a UX Designer in the Design department, located in Delhi. They joined the company on 2018-08-15 and report to manager FINEMP1004. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Saanvi Bhat (FINEMP1056)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 580,
+      "employee_id": "FINEMP1056",
+      "employee_name": "Saanvi Bhat",
+      "employee_role": "UX Designer",
+      "employee_dept": "Design"
+    }
+  },
+  {
+    "chunk_id": "hr_a4facbae",
+    "text": "Employee Information:\nFull Name: Aditya Kapoor\nEmployee ID: FINEMP1057\nRole: Marketing Manager\nDepartment: Marketing\nEmail: aditya.kapoor@fintechco.com\nLocation: Lucknow\nDate of Birth: 1979-10-19\nDate of Joining: 2022-04-22\nManager ID: FINEMP1006\nSalary: ₹1,641,119.13\nLeave Balance: 10 days\nLeaves Taken: 1 days\nAttendance: 92.5%\nPerformance Rating: 2/5\nLast Review Date: 2024-06-07\n\nThis employee Aditya Kapoor works as a Marketing Manager in the Marketing department, located in Lucknow. They joined the company on 2022-04-22 and report to manager FINEMP1006. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aditya Kapoor (FINEMP1057)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 610,
+      "employee_id": "FINEMP1057",
+      "employee_name": "Aditya Kapoor",
+      "employee_role": "Marketing Manager",
+      "employee_dept": "Marketing"
+    }
+  },
+  {
+    "chunk_id": "hr_c843523d",
+    "text": "Employee Information:\nFull Name: Avni Chopra\nEmployee ID: FINEMP1058\nRole: Financial Analyst\nDepartment: Finance\nEmail: avni.chopra@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1990-07-25\nDate of Joining: 2019-09-03\nManager ID: FINEMP1006\nSalary: ₹1,098,952.83\nLeave Balance: 8 days\nLeaves Taken: 3 days\nAttendance: 96.31%\nPerformance Rating: 5/5\nLast Review Date: 2025-01-31\n\nThis employee Avni Chopra works as a Financial Analyst in the Finance department, located in Hyderabad. They joined the company on 2019-09-03 and report to manager FINEMP1006. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Avni Chopra (FINEMP1058)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 604,
+      "employee_id": "FINEMP1058",
+      "employee_name": "Avni Chopra",
+      "employee_role": "Financial Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_1a9375d1",
+    "text": "Employee Information:\nFull Name: Saanvi Malhotra\nEmployee ID: FINEMP1059\nRole: Customer Support\nDepartment: Operations\nEmail: saanvi.malhotra@fintechco.com\nLocation: Lucknow\nDate of Birth: 1995-05-31\nDate of Joining: 2018-08-30\nManager ID: FINEMP1006\nSalary: ₹1,430,154.39\nLeave Balance: 12 days\nLeaves Taken: 12 days\nAttendance: 93.02%\nPerformance Rating: 2/5\nLast Review Date: 2025-04-25\n\nThis employee Saanvi Malhotra works as a Customer Support in the Operations department, located in Lucknow. They joined the company on 2018-08-30 and report to manager FINEMP1006. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Saanvi Malhotra (FINEMP1059)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 618,
+      "employee_id": "FINEMP1059",
+      "employee_name": "Saanvi Malhotra",
+      "employee_role": "Customer Support",
+      "employee_dept": "Operations"
+    }
+  },
+  {
+    "chunk_id": "hr_1ec1c955",
+    "text": "Employee Information:\nFull Name: Arjun Mehta\nEmployee ID: FINEMP1060\nRole: Sales Manager\nDepartment: Sales\nEmail: arjun.mehta@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1985-08-27\nDate of Joining: 2020-11-05\nManager ID: FINEMP1007\nSalary: ₹1,258,070.34\nLeave Balance: 6 days\nLeaves Taken: 0 days\nAttendance: 98.75%\nPerformance Rating: 4/5\nLast Review Date: 2024-09-21\n\nThis employee Arjun Mehta works as a Sales Manager in the Sales department, located in Bengaluru. They joined the company on 2020-11-05 and report to manager FINEMP1007. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Arjun Mehta (FINEMP1060)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 592,
+      "employee_id": "FINEMP1060",
+      "employee_name": "Arjun Mehta",
+      "employee_role": "Sales Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_b13dc110",
+    "text": "Employee Information:\nFull Name: Vivaan Chowdhury\nEmployee ID: FINEMP1061\nRole: Blockchain Developer\nDepartment: Technology\nEmail: vivaan.chowdhury@fintechco.com\nLocation: Jaipur\nDate of Birth: 1982-09-21\nDate of Joining: 2020-03-01\nManager ID: FINEMP1008\nSalary: ₹1,349,620.28\nLeave Balance: 9 days\nLeaves Taken: 0 days\nAttendance: 81.37%\nPerformance Rating: 3/5\nLast Review Date: 2024-01-19\n\nThis employee Vivaan Chowdhury works as a Blockchain Developer in the Technology department, located in Jaipur. They joined the company on 2020-03-01 and report to manager FINEMP1008. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vivaan Chowdhury (FINEMP1061)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 625,
+      "employee_id": "FINEMP1061",
+      "employee_name": "Vivaan Chowdhury",
+      "employee_role": "Blockchain Developer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_d059fb89",
+    "text": "Employee Information:\nFull Name: Ananya Iyer\nEmployee ID: FINEMP1062\nRole: Product Manager\nDepartment: Product\nEmail: ananya.iyer@fintechco.com\nLocation: Chennai\nDate of Birth: 1982-07-13\nDate of Joining: 2019-08-23\nManager ID: FINEMP1007\nSalary: ₹1,641,718.19\nLeave Balance: 17 days\nLeaves Taken: 7 days\nAttendance: 96.07%\nPerformance Rating: 1/5\nLast Review Date: 2025-03-09\n\nThis employee Ananya Iyer works as a Product Manager in the Product department, located in Chennai. They joined the company on 2019-08-23 and report to manager FINEMP1007. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ananya Iyer (FINEMP1062)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 597,
+      "employee_id": "FINEMP1062",
+      "employee_name": "Ananya Iyer",
+      "employee_role": "Product Manager",
+      "employee_dept": "Product"
+    }
+  },
+  {
+    "chunk_id": "hr_a9bf3cc2",
+    "text": "Employee Information:\nFull Name: Aadhya Kapoor\nEmployee ID: FINEMP1063\nRole: Risk Analyst\nDepartment: Risk\nEmail: aadhya.kapoor@fintechco.com\nLocation: Jaipur\nDate of Birth: 1991-07-10\nDate of Joining: 2021-10-27\nManager ID: FINEMP1004\nSalary: ₹1,833,641.20\nLeave Balance: 8 days\nLeaves Taken: 1 days\nAttendance: 85.81%\nPerformance Rating: 2/5\nLast Review Date: 2024-06-29\n\nThis employee Aadhya Kapoor works as a Risk Analyst in the Risk department, located in Jaipur. They joined the company on 2021-10-27 and report to manager FINEMP1004. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aadhya Kapoor (FINEMP1063)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 588,
+      "employee_id": "FINEMP1063",
+      "employee_name": "Aadhya Kapoor",
+      "employee_role": "Risk Analyst",
+      "employee_dept": "Risk"
+    }
+  },
+  {
+    "chunk_id": "hr_d690a5ec",
+    "text": "Employee Information:\nFull Name: Saanvi Nair\nEmployee ID: FINEMP1064\nRole: Risk Analyst\nDepartment: Risk\nEmail: saanvi.nair@fintechco.com\nLocation: Lucknow\nDate of Birth: 1982-09-11\nDate of Joining: 2021-05-12\nManager ID: FINEMP1004\nSalary: ₹1,809,813.11\nLeave Balance: 0 days\nLeaves Taken: 0 days\nAttendance: 83.64%\nPerformance Rating: 2/5\nLast Review Date: 2024-05-17\n\nThis employee Saanvi Nair works as a Risk Analyst in the Risk department, located in Lucknow. They joined the company on 2021-05-12 and report to manager FINEMP1004. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Saanvi Nair (FINEMP1064)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 584,
+      "employee_id": "FINEMP1064",
+      "employee_name": "Saanvi Nair",
+      "employee_role": "Risk Analyst",
+      "employee_dept": "Risk"
+    }
+  },
+  {
+    "chunk_id": "hr_44c2d3c6",
+    "text": "Employee Information:\nFull Name: Myra Garg\nEmployee ID: FINEMP1065\nRole: Blockchain Developer\nDepartment: Technology\nEmail: myra.garg@fintechco.com\nLocation: Lucknow\nDate of Birth: 1989-05-09\nDate of Joining: 2019-03-28\nManager ID: FINEMP1004\nSalary: ₹1,947,873.28\nLeave Balance: 6 days\nLeaves Taken: 2 days\nAttendance: 81.24%\nPerformance Rating: 2/5\nLast Review Date: 2024-10-03\n\nThis employee Myra Garg works as a Blockchain Developer in the Technology department, located in Lucknow. They joined the company on 2019-03-28 and report to manager FINEMP1004. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Myra Garg (FINEMP1065)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 606,
+      "employee_id": "FINEMP1065",
+      "employee_name": "Myra Garg",
+      "employee_role": "Blockchain Developer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_dfadf261",
+    "text": "Employee Information:\nFull Name: Diya Iyer\nEmployee ID: FINEMP1066\nRole: Sales Manager\nDepartment: Sales\nEmail: diya.iyer@fintechco.com\nLocation: Jaipur\nDate of Birth: 1977-05-24\nDate of Joining: 2020-12-19\nManager ID: FINEMP1008\nSalary: ₹1,333,935.56\nLeave Balance: 24 days\nLeaves Taken: 10 days\nAttendance: 91.78%\nPerformance Rating: 1/5\nLast Review Date: 2025-01-09\n\nThis employee Diya Iyer works as a Sales Manager in the Sales department, located in Jaipur. They joined the company on 2020-12-19 and report to manager FINEMP1008. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Diya Iyer (FINEMP1066)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 582,
+      "employee_id": "FINEMP1066",
+      "employee_name": "Diya Iyer",
+      "employee_role": "Sales Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_e3138347",
+    "text": "Employee Information:\nFull Name: Shaurya Chopra\nEmployee ID: FINEMP1067\nRole: Compliance Officer\nDepartment: Compliance\nEmail: shaurya.chopra@fintechco.com\nLocation: Lucknow\nDate of Birth: 1998-03-26\nDate of Joining: 2021-10-06\nManager ID: FINEMP1001\nSalary: ₹368,244.88\nLeave Balance: 0 days\nLeaves Taken: 0 days\nAttendance: 80.02%\nPerformance Rating: 3/5\nLast Review Date: 2024-05-01\n\nThis employee Shaurya Chopra works as a Compliance Officer in the Compliance department, located in Lucknow. They joined the company on 2021-10-06 and report to manager FINEMP1001. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Shaurya Chopra (FINEMP1067)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 615,
+      "employee_id": "FINEMP1067",
+      "employee_name": "Shaurya Chopra",
+      "employee_role": "Compliance Officer",
+      "employee_dept": "Compliance"
+    }
+  },
+  {
+    "chunk_id": "hr_0245be61",
+    "text": "Employee Information:\nFull Name: Shaurya Singh\nEmployee ID: FINEMP1068\nRole: Data Scientist\nDepartment: Data\nEmail: shaurya.singh@fintechco.com\nLocation: Jaipur\nDate of Birth: 1979-05-02\nDate of Joining: 2024-02-23\nManager ID: FINEMP1002\nSalary: ₹1,803,057.99\nLeave Balance: 6 days\nLeaves Taken: 0 days\nAttendance: 81.1%\nPerformance Rating: 3/5\nLast Review Date: 2024-11-14\n\nThis employee Shaurya Singh works as a Data Scientist in the Data department, located in Jaipur. They joined the company on 2024-02-23 and report to manager FINEMP1002. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Shaurya Singh (FINEMP1068)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 591,
+      "employee_id": "FINEMP1068",
+      "employee_name": "Shaurya Singh",
+      "employee_role": "Data Scientist",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_b743df68",
+    "text": "Employee Information:\nFull Name: Vivaan Saxena\nEmployee ID: FINEMP1069\nRole: Risk Analyst\nDepartment: Risk\nEmail: vivaan.saxena@fintechco.com\nLocation: Lucknow\nDate of Birth: 1996-07-25\nDate of Joining: 2018-04-21\nManager ID: FINEMP1003\nSalary: ₹1,596,298.88\nLeave Balance: 21 days\nLeaves Taken: 12 days\nAttendance: 96.61%\nPerformance Rating: 4/5\nLast Review Date: 2024-09-28\n\nThis employee Vivaan Saxena works as a Risk Analyst in the Risk department, located in Lucknow. They joined the company on 2018-04-21 and report to manager FINEMP1003. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vivaan Saxena (FINEMP1069)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 592,
+      "employee_id": "FINEMP1069",
+      "employee_name": "Vivaan Saxena",
+      "employee_role": "Risk Analyst",
+      "employee_dept": "Risk"
+    }
+  },
+  {
+    "chunk_id": "hr_32db8641",
+    "text": "Employee Information:\nFull Name: Saanvi Banerjee\nEmployee ID: FINEMP1070\nRole: Credit Officer\nDepartment: Finance\nEmail: saanvi.banerjee@fintechco.com\nLocation: Pune\nDate of Birth: 1978-10-20\nDate of Joining: 2020-12-24\nManager ID: FINEMP1000\nSalary: ₹1,872,784.84\nLeave Balance: 17 days\nLeaves Taken: 6 days\nAttendance: 95.36%\nPerformance Rating: 2/5\nLast Review Date: 2024-02-04\n\nThis employee Saanvi Banerjee works as a Credit Officer in the Finance department, located in Pune. They joined the company on 2020-12-24 and report to manager FINEMP1000. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Saanvi Banerjee (FINEMP1070)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 601,
+      "employee_id": "FINEMP1070",
+      "employee_name": "Saanvi Banerjee",
+      "employee_role": "Credit Officer",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_a8771951",
+    "text": "Employee Information:\nFull Name: Vivaan Verma\nEmployee ID: FINEMP1071\nRole: Credit Officer\nDepartment: Finance\nEmail: vivaan.verma@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1986-04-27\nDate of Joining: 2019-03-21\nManager ID: FINEMP1008\nSalary: ₹1,643,988.07\nLeave Balance: 0 days\nLeaves Taken: 0 days\nAttendance: 98.33%\nPerformance Rating: 2/5\nLast Review Date: 2024-10-15\n\nThis employee Vivaan Verma works as a Credit Officer in the Finance department, located in Bengaluru. They joined the company on 2019-03-21 and report to manager FINEMP1008. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vivaan Verma (FINEMP1071)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 601,
+      "employee_id": "FINEMP1071",
+      "employee_name": "Vivaan Verma",
+      "employee_role": "Credit Officer",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_37dfcd59",
+    "text": "Employee Information:\nFull Name: Saanvi Gupta\nEmployee ID: FINEMP1072\nRole: QA Engineer\nDepartment: Quality Assurance\nEmail: saanvi.gupta@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1998-08-31\nDate of Joining: 2019-11-08\nManager ID: FINEMP1003\nSalary: ₹1,333,187.28\nLeave Balance: 15 days\nLeaves Taken: 1 days\nAttendance: 97.66%\nPerformance Rating: 3/5\nLast Review Date: 2024-07-14\n\nThis employee Saanvi Gupta works as a QA Engineer in the Quality Assurance department, located in Bengaluru. They joined the company on 2019-11-08 and report to manager FINEMP1003. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Saanvi Gupta (FINEMP1072)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 616,
+      "employee_id": "FINEMP1072",
+      "employee_name": "Saanvi Gupta",
+      "employee_role": "QA Engineer",
+      "employee_dept": "Quality Assurance"
+    }
+  },
+  {
+    "chunk_id": "hr_b26186cd",
+    "text": "Employee Information:\nFull Name: Diya Nair\nEmployee ID: FINEMP1073\nRole: Relationship Manager\nDepartment: Sales\nEmail: diya.nair@fintechco.com\nLocation: Delhi\nDate of Birth: 1988-11-24\nDate of Joining: 2024-08-22\nManager ID: FINEMP1004\nSalary: ₹1,416,536.32\nLeave Balance: 0 days\nLeaves Taken: 0 days\nAttendance: 95.13%\nPerformance Rating: 5/5\nLast Review Date: 2025-01-29\n\nThis employee Diya Nair works as a Relationship Manager in the Sales department, located in Delhi. They joined the company on 2024-08-22 and report to manager FINEMP1004. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Diya Nair (FINEMP1073)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 592,
+      "employee_id": "FINEMP1073",
+      "employee_name": "Diya Nair",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_ea6bf563",
+    "text": "Employee Information:\nFull Name: Vihaan Chopra\nEmployee ID: FINEMP1074\nRole: Relationship Manager\nDepartment: Sales\nEmail: vihaan.chopra@fintechco.com\nLocation: Mumbai\nDate of Birth: 1996-03-28\nDate of Joining: 2024-09-10\nManager ID: FINEMP1005\nSalary: ₹1,938,308.68\nLeave Balance: 6 days\nLeaves Taken: 5 days\nAttendance: 92.42%\nPerformance Rating: 3/5\nLast Review Date: 2025-04-12\n\nThis employee Vihaan Chopra works as a Relationship Manager in the Sales department, located in Mumbai. They joined the company on 2024-09-10 and report to manager FINEMP1005. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Chopra (FINEMP1074)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 606,
+      "employee_id": "FINEMP1074",
+      "employee_name": "Vihaan Chopra",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_fc67d1b8",
+    "text": "Employee Information:\nFull Name: Ananya Khan\nEmployee ID: FINEMP1075\nRole: QA Engineer\nDepartment: Quality Assurance\nEmail: ananya.khan@fintechco.com\nLocation: Mumbai\nDate of Birth: 1994-03-30\nDate of Joining: 2019-05-14\nManager ID: FINEMP1009\nSalary: ₹687,174.91\nLeave Balance: 6 days\nLeaves Taken: 4 days\nAttendance: 87.01%\nPerformance Rating: 5/5\nLast Review Date: 2025-04-27\n\nThis employee Ananya Khan works as a QA Engineer in the Quality Assurance department, located in Mumbai. They joined the company on 2019-05-14 and report to manager FINEMP1009. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ananya Khan (FINEMP1075)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 604,
+      "employee_id": "FINEMP1075",
+      "employee_name": "Ananya Khan",
+      "employee_role": "QA Engineer",
+      "employee_dept": "Quality Assurance"
+    }
+  },
+  {
+    "chunk_id": "hr_55c81c85",
+    "text": "Employee Information:\nFull Name: Avni Chowdhury\nEmployee ID: FINEMP1076\nRole: Credit Officer\nDepartment: Finance\nEmail: avni.chowdhury@fintechco.com\nLocation: Delhi\nDate of Birth: 1994-03-28\nDate of Joining: 2022-01-25\nManager ID: FINEMP1008\nSalary: ₹589,221.29\nLeave Balance: 27 days\nLeaves Taken: 26 days\nAttendance: 88.76%\nPerformance Rating: 4/5\nLast Review Date: 2024-02-25\n\nThis employee Avni Chowdhury works as a Credit Officer in the Finance department, located in Delhi. They joined the company on 2022-01-25 and report to manager FINEMP1008. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Avni Chowdhury (FINEMP1076)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 599,
+      "employee_id": "FINEMP1076",
+      "employee_name": "Avni Chowdhury",
+      "employee_role": "Credit Officer",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_c6dfc5ba",
+    "text": "Employee Information:\nFull Name: Krishna Nair\nEmployee ID: FINEMP1077\nRole: UX Designer\nDepartment: Design\nEmail: krishna.nair@fintechco.com\nLocation: Mumbai\nDate of Birth: 1995-08-16\nDate of Joining: 2019-12-07\nManager ID: FINEMP1004\nSalary: ₹1,477,253.10\nLeave Balance: 8 days\nLeaves Taken: 5 days\nAttendance: 97.75%\nPerformance Rating: 1/5\nLast Review Date: 2024-08-06\n\nThis employee Krishna Nair works as a UX Designer in the Design department, located in Mumbai. They joined the company on 2019-12-07 and report to manager FINEMP1004. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Nair (FINEMP1077)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 587,
+      "employee_id": "FINEMP1077",
+      "employee_name": "Krishna Nair",
+      "employee_role": "UX Designer",
+      "employee_dept": "Design"
+    }
+  },
+  {
+    "chunk_id": "hr_48605d31",
+    "text": "Employee Information:\nFull Name: Prisha Chopra\nEmployee ID: FINEMP1078\nRole: Data Analyst\nDepartment: Data\nEmail: prisha.chopra@fintechco.com\nLocation: Lucknow\nDate of Birth: 1981-03-18\nDate of Joining: 2023-08-01\nManager ID: FINEMP1001\nSalary: ₹1,438,958.04\nLeave Balance: 24 days\nLeaves Taken: 1 days\nAttendance: 90.49%\nPerformance Rating: 2/5\nLast Review Date: 2024-02-28\n\nThis employee Prisha Chopra works as a Data Analyst in the Data department, located in Lucknow. They joined the company on 2023-08-01 and report to manager FINEMP1001. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Prisha Chopra (FINEMP1078)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 591,
+      "employee_id": "FINEMP1078",
+      "employee_name": "Prisha Chopra",
+      "employee_role": "Data Analyst",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_1ea54977",
+    "text": "Employee Information:\nFull Name: Krishna Iyer\nEmployee ID: FINEMP1079\nRole: Financial Analyst\nDepartment: Finance\nEmail: krishna.iyer@fintechco.com\nLocation: Ahmedabad\nDate of Birth: 1984-02-29\nDate of Joining: 2023-10-05\nManager ID: FINEMP1000\nSalary: ₹1,507,078.74\nLeave Balance: 20 days\nLeaves Taken: 11 days\nAttendance: 87.41%\nPerformance Rating: 3/5\nLast Review Date: 2024-01-22\n\nThis employee Krishna Iyer works as a Financial Analyst in the Finance department, located in Ahmedabad. They joined the company on 2023-10-05 and report to manager FINEMP1000. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Iyer (FINEMP1079)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 609,
+      "employee_id": "FINEMP1079",
+      "employee_name": "Krishna Iyer",
+      "employee_role": "Financial Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_3e47e5f2",
+    "text": "Employee Information:\nFull Name: Avni Reddy\nEmployee ID: FINEMP1080\nRole: Data Analyst\nDepartment: Data\nEmail: avni.reddy@fintechco.com\nLocation: Pune\nDate of Birth: 1995-01-29\nDate of Joining: 2021-02-24\nManager ID: FINEMP1000\nSalary: ₹400,948.72\nLeave Balance: 14 days\nLeaves Taken: 0 days\nAttendance: 81.49%\nPerformance Rating: 5/5\nLast Review Date: 2024-12-08\n\nThis employee Avni Reddy works as a Data Analyst in the Data department, located in Pune. They joined the company on 2021-02-24 and report to manager FINEMP1000. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Avni Reddy (FINEMP1080)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 574,
+      "employee_id": "FINEMP1080",
+      "employee_name": "Avni Reddy",
+      "employee_role": "Data Analyst",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_ed7cc276",
+    "text": "Employee Information:\nFull Name: Sakshi Malhotra\nEmployee ID: FINEMP1081\nRole: Credit Officer\nDepartment: Finance\nEmail: sakshi.malhotra@fintechco.com\nLocation: Mumbai\nDate of Birth: 1997-06-09\nDate of Joining: 2019-06-09\nManager ID: FINEMP1004\nSalary: ₹1,113,984.52\nLeave Balance: 25 days\nLeaves Taken: 18 days\nAttendance: 80.71%\nPerformance Rating: 3/5\nLast Review Date: 2024-07-26\n\nThis employee Sakshi Malhotra works as a Credit Officer in the Finance department, located in Mumbai. They joined the company on 2019-06-09 and report to manager FINEMP1004. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sakshi Malhotra (FINEMP1081)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 606,
+      "employee_id": "FINEMP1081",
+      "employee_name": "Sakshi Malhotra",
+      "employee_role": "Credit Officer",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_d8719802",
+    "text": "Employee Information:\nFull Name: Vihaan Chowdhury\nEmployee ID: FINEMP1082\nRole: Financial Analyst\nDepartment: Finance\nEmail: vihaan.chowdhury@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1998-06-24\nDate of Joining: 2018-07-22\nManager ID: FINEMP1005\nSalary: ₹1,036,719.56\nLeave Balance: 18 days\nLeaves Taken: 7 days\nAttendance: 93.4%\nPerformance Rating: 2/5\nLast Review Date: 2024-01-21\n\nThis employee Vihaan Chowdhury works as a Financial Analyst in the Finance department, located in Hyderabad. They joined the company on 2018-07-22 and report to manager FINEMP1005. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Vihaan Chowdhury (FINEMP1082)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 619,
+      "employee_id": "FINEMP1082",
+      "employee_name": "Vihaan Chowdhury",
+      "employee_role": "Financial Analyst",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_77e1e2f5",
+    "text": "Employee Information:\nFull Name: Krishna Malhotra\nEmployee ID: FINEMP1083\nRole: Sales Manager\nDepartment: Sales\nEmail: krishna.malhotra@fintechco.com\nLocation: Pune\nDate of Birth: 1976-08-20\nDate of Joining: 2022-12-26\nManager ID: FINEMP1001\nSalary: ₹1,413,177.70\nLeave Balance: 25 days\nLeaves Taken: 21 days\nAttendance: 91.85%\nPerformance Rating: 1/5\nLast Review Date: 2024-01-21\n\nThis employee Krishna Malhotra works as a Sales Manager in the Sales department, located in Pune. They joined the company on 2022-12-26 and report to manager FINEMP1001. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Malhotra (FINEMP1083)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 599,
+      "employee_id": "FINEMP1083",
+      "employee_name": "Krishna Malhotra",
+      "employee_role": "Sales Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_73f510b8",
+    "text": "Employee Information:\nFull Name: Saanvi Chowdhury\nEmployee ID: FINEMP1084\nRole: Business Analyst\nDepartment: Business\nEmail: saanvi.chowdhury@fintechco.com\nLocation: Pune\nDate of Birth: 1976-03-24\nDate of Joining: 2023-06-22\nManager ID: FINEMP1004\nSalary: ₹1,982,774.95\nLeave Balance: 5 days\nLeaves Taken: 4 days\nAttendance: 99.17%\nPerformance Rating: 2/5\nLast Review Date: 2024-06-10\n\nThis employee Saanvi Chowdhury works as a Business Analyst in the Business department, located in Pune. They joined the company on 2023-06-22 and report to manager FINEMP1004. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Saanvi Chowdhury (FINEMP1084)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 609,
+      "employee_id": "FINEMP1084",
+      "employee_name": "Saanvi Chowdhury",
+      "employee_role": "Business Analyst",
+      "employee_dept": "Business"
+    }
+  },
+  {
+    "chunk_id": "hr_24489eb5",
+    "text": "Employee Information:\nFull Name: Aadhya Mehta\nEmployee ID: FINEMP1085\nRole: QA Engineer\nDepartment: Quality Assurance\nEmail: aadhya.mehta@fintechco.com\nLocation: Kolkata\nDate of Birth: 1983-12-03\nDate of Joining: 2021-10-11\nManager ID: FINEMP1000\nSalary: ₹1,026,240.03\nLeave Balance: 6 days\nLeaves Taken: 6 days\nAttendance: 92.28%\nPerformance Rating: 2/5\nLast Review Date: 2024-12-19\n\nThis employee Aadhya Mehta works as a QA Engineer in the Quality Assurance department, located in Kolkata. They joined the company on 2021-10-11 and report to manager FINEMP1000. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aadhya Mehta (FINEMP1085)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 611,
+      "employee_id": "FINEMP1085",
+      "employee_name": "Aadhya Mehta",
+      "employee_role": "QA Engineer",
+      "employee_dept": "Quality Assurance"
+    }
+  },
+  {
+    "chunk_id": "hr_6bc67dd0",
+    "text": "Employee Information:\nFull Name: Diya Iyer\nEmployee ID: FINEMP1086\nRole: Data Analyst\nDepartment: Data\nEmail: diya.iyer@fintechco.com\nLocation: Kolkata\nDate of Birth: 1989-09-24\nDate of Joining: 2018-11-28\nManager ID: FINEMP1006\nSalary: ₹1,950,772.90\nLeave Balance: 2 days\nLeaves Taken: 2 days\nAttendance: 88.26%\nPerformance Rating: 5/5\nLast Review Date: 2024-03-21\n\nThis employee Diya Iyer works as a Data Analyst in the Data department, located in Kolkata. They joined the company on 2018-11-28 and report to manager FINEMP1006. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Diya Iyer (FINEMP1086)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 578,
+      "employee_id": "FINEMP1086",
+      "employee_name": "Diya Iyer",
+      "employee_role": "Data Analyst",
+      "employee_dept": "Data"
+    }
+  },
+  {
+    "chunk_id": "hr_b86504ec",
+    "text": "Employee Information:\nFull Name: Avni Nair\nEmployee ID: FINEMP1087\nRole: Relationship Manager\nDepartment: Sales\nEmail: avni.nair@fintechco.com\nLocation: Chennai\nDate of Birth: 1999-08-05\nDate of Joining: 2021-10-06\nManager ID: FINEMP1008\nSalary: ₹1,333,720.85\nLeave Balance: 19 days\nLeaves Taken: 3 days\nAttendance: 90.98%\nPerformance Rating: 2/5\nLast Review Date: 2024-05-16\n\nThis employee Avni Nair works as a Relationship Manager in the Sales department, located in Chennai. They joined the company on 2021-10-06 and report to manager FINEMP1008. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Avni Nair (FINEMP1087)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 597,
+      "employee_id": "FINEMP1087",
+      "employee_name": "Avni Nair",
+      "employee_role": "Relationship Manager",
+      "employee_dept": "Sales"
+    }
+  },
+  {
+    "chunk_id": "hr_1d6a8c20",
+    "text": "Employee Information:\nFull Name: Avni Chowdhury\nEmployee ID: FINEMP1088\nRole: Customer Support\nDepartment: Operations\nEmail: avni.chowdhury@fintechco.com\nLocation: Delhi\nDate of Birth: 1989-05-18\nDate of Joining: 2020-11-25\nManager ID: FINEMP1005\nSalary: ₹614,347.62\nLeave Balance: 15 days\nLeaves Taken: 0 days\nAttendance: 98.8%\nPerformance Rating: 5/5\nLast Review Date: 2024-04-14\n\nThis employee Avni Chowdhury works as a Customer Support in the Operations department, located in Delhi. They joined the company on 2020-11-25 and report to manager FINEMP1005. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Avni Chowdhury (FINEMP1088)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 607,
+      "employee_id": "FINEMP1088",
+      "employee_name": "Avni Chowdhury",
+      "employee_role": "Customer Support",
+      "employee_dept": "Operations"
+    }
+  },
+  {
+    "chunk_id": "hr_73d7827d",
+    "text": "Employee Information:\nFull Name: Aarav Joshi\nEmployee ID: FINEMP1089\nRole: Security Engineer\nDepartment: Technology\nEmail: aarav.joshi@fintechco.com\nLocation: Lucknow\nDate of Birth: 1977-05-07\nDate of Joining: 2021-03-01\nManager ID: FINEMP1003\nSalary: ₹330,010.27\nLeave Balance: 4 days\nLeaves Taken: 4 days\nAttendance: 82.24%\nPerformance Rating: 1/5\nLast Review Date: 2024-10-29\n\nThis employee Aarav Joshi works as a Security Engineer in the Technology department, located in Lucknow. They joined the company on 2021-03-01 and report to manager FINEMP1003. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aarav Joshi (FINEMP1089)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 604,
+      "employee_id": "FINEMP1089",
+      "employee_name": "Aarav Joshi",
+      "employee_role": "Security Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_81b4fdcc",
+    "text": "Employee Information:\nFull Name: Arjun Chowdhury\nEmployee ID: FINEMP1090\nRole: Software Engineer\nDepartment: Technology\nEmail: arjun.chowdhury@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1993-02-04\nDate of Joining: 2022-07-30\nManager ID: FINEMP1007\nSalary: ₹454,938.59\nLeave Balance: 23 days\nLeaves Taken: 9 days\nAttendance: 91.15%\nPerformance Rating: 1/5\nLast Review Date: 2024-09-26\n\nThis employee Arjun Chowdhury works as a Software Engineer in the Technology department, located in Hyderabad. They joined the company on 2022-07-30 and report to manager FINEMP1007. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Arjun Chowdhury (FINEMP1090)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 621,
+      "employee_id": "FINEMP1090",
+      "employee_name": "Arjun Chowdhury",
+      "employee_role": "Software Engineer",
+      "employee_dept": "Technology"
+    }
+  },
+  {
+    "chunk_id": "hr_89ca18e9",
+    "text": "Employee Information:\nFull Name: Diya Desai\nEmployee ID: FINEMP1091\nRole: Compliance Officer\nDepartment: Compliance\nEmail: diya.desai@fintechco.com\nLocation: Chennai\nDate of Birth: 1982-05-28\nDate of Joining: 2022-03-23\nManager ID: FINEMP1008\nSalary: ₹1,262,938.40\nLeave Balance: 19 days\nLeaves Taken: 3 days\nAttendance: 86.4%\nPerformance Rating: 1/5\nLast Review Date: 2024-08-30\n\nThis employee Diya Desai works as a Compliance Officer in the Compliance department, located in Chennai. They joined the company on 2022-03-23 and report to manager FINEMP1008. Their current performance rating is 1 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Diya Desai (FINEMP1091)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 605,
+      "employee_id": "FINEMP1091",
+      "employee_name": "Diya Desai",
+      "employee_role": "Compliance Officer",
+      "employee_dept": "Compliance"
+    }
+  },
+  {
+    "chunk_id": "hr_48edc933",
+    "text": "Employee Information:\nFull Name: Ananya Nair\nEmployee ID: FINEMP1092\nRole: HR Manager\nDepartment: HR\nEmail: ananya.nair@fintechco.com\nLocation: Hyderabad\nDate of Birth: 1997-11-12\nDate of Joining: 2019-11-25\nManager ID: FINEMP1003\nSalary: ₹512,211.07\nLeave Balance: 4 days\nLeaves Taken: 4 days\nAttendance: 85.19%\nPerformance Rating: 3/5\nLast Review Date: 2024-05-18\n\nThis employee Ananya Nair works as a HR Manager in the HR department, located in Hyderabad. They joined the company on 2019-11-25 and report to manager FINEMP1003. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ananya Nair (FINEMP1092)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 578,
+      "employee_id": "FINEMP1092",
+      "employee_name": "Ananya Nair",
+      "employee_role": "HR Manager",
+      "employee_dept": "HR"
+    }
+  },
+  {
+    "chunk_id": "hr_68a823b8",
+    "text": "Employee Information:\nFull Name: Shaurya Sharma\nEmployee ID: FINEMP1093\nRole: Product Manager\nDepartment: Product\nEmail: shaurya.sharma@fintechco.com\nLocation: Mumbai\nDate of Birth: 1976-10-18\nDate of Joining: 2024-07-28\nManager ID: FINEMP1002\nSalary: ₹1,325,752.20\nLeave Balance: 12 days\nLeaves Taken: 9 days\nAttendance: 93.73%\nPerformance Rating: 5/5\nLast Review Date: 2024-01-31\n\nThis employee Shaurya Sharma works as a Product Manager in the Product department, located in Mumbai. They joined the company on 2024-07-28 and report to manager FINEMP1002. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Shaurya Sharma (FINEMP1093)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 604,
+      "employee_id": "FINEMP1093",
+      "employee_name": "Shaurya Sharma",
+      "employee_role": "Product Manager",
+      "employee_dept": "Product"
+    }
+  },
+  {
+    "chunk_id": "hr_b506c48f",
+    "text": "Employee Information:\nFull Name: Aarav Kapoor\nEmployee ID: FINEMP1094\nRole: UX Designer\nDepartment: Design\nEmail: aarav.kapoor@fintechco.com\nLocation: Lucknow\nDate of Birth: 1994-12-04\nDate of Joining: 2023-06-29\nManager ID: FINEMP1007\nSalary: ₹1,373,465.39\nLeave Balance: 24 days\nLeaves Taken: 2 days\nAttendance: 91.59%\nPerformance Rating: 2/5\nLast Review Date: 2024-10-23\n\nThis employee Aarav Kapoor works as a UX Designer in the Design department, located in Lucknow. They joined the company on 2023-06-29 and report to manager FINEMP1007. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Aarav Kapoor (FINEMP1094)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 590,
+      "employee_id": "FINEMP1094",
+      "employee_name": "Aarav Kapoor",
+      "employee_role": "UX Designer",
+      "employee_dept": "Design"
+    }
+  },
+  {
+    "chunk_id": "hr_709283d0",
+    "text": "Employee Information:\nFull Name: Ananya Khan\nEmployee ID: FINEMP1095\nRole: QA Engineer\nDepartment: Quality Assurance\nEmail: ananya.khan@fintechco.com\nLocation: Delhi\nDate of Birth: 1997-04-09\nDate of Joining: 2021-03-12\nManager ID: FINEMP1008\nSalary: ₹305,337.03\nLeave Balance: 18 days\nLeaves Taken: 4 days\nAttendance: 88.06%\nPerformance Rating: 5/5\nLast Review Date: 2024-02-15\n\nThis employee Ananya Khan works as a QA Engineer in the Quality Assurance department, located in Delhi. They joined the company on 2021-03-12 and report to manager FINEMP1008. Their current performance rating is 5 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Ananya Khan (FINEMP1095)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 603,
+      "employee_id": "FINEMP1095",
+      "employee_name": "Ananya Khan",
+      "employee_role": "QA Engineer",
+      "employee_dept": "Quality Assurance"
+    }
+  },
+  {
+    "chunk_id": "hr_43ef7bb0",
+    "text": "Employee Information:\nFull Name: Krishna Bhat\nEmployee ID: FINEMP1096\nRole: Credit Officer\nDepartment: Finance\nEmail: krishna.bhat@fintechco.com\nLocation: Delhi\nDate of Birth: 1983-07-25\nDate of Joining: 2022-03-25\nManager ID: FINEMP1003\nSalary: ₹807,527.48\nLeave Balance: 8 days\nLeaves Taken: 6 days\nAttendance: 97.67%\nPerformance Rating: 3/5\nLast Review Date: 2024-01-04\n\nThis employee Krishna Bhat works as a Credit Officer in the Finance department, located in Delhi. They joined the company on 2022-03-25 and report to manager FINEMP1003. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Krishna Bhat (FINEMP1096)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 591,
+      "employee_id": "FINEMP1096",
+      "employee_name": "Krishna Bhat",
+      "employee_role": "Credit Officer",
+      "employee_dept": "Finance"
+    }
+  },
+  {
+    "chunk_id": "hr_faa08bdb",
+    "text": "Employee Information:\nFull Name: Sakshi Kapoor\nEmployee ID: FINEMP1097\nRole: Marketing Manager\nDepartment: Marketing\nEmail: sakshi.kapoor@fintechco.com\nLocation: Bengaluru\nDate of Birth: 1995-09-14\nDate of Joining: 2018-02-10\nManager ID: FINEMP1000\nSalary: ₹1,468,652.84\nLeave Balance: 18 days\nLeaves Taken: 14 days\nAttendance: 94.91%\nPerformance Rating: 2/5\nLast Review Date: 2024-05-14\n\nThis employee Sakshi Kapoor works as a Marketing Manager in the Marketing department, located in Bengaluru. They joined the company on 2018-02-10 and report to manager FINEMP1000. Their current performance rating is 2 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Sakshi Kapoor (FINEMP1097)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 616,
+      "employee_id": "FINEMP1097",
+      "employee_name": "Sakshi Kapoor",
+      "employee_role": "Marketing Manager",
+      "employee_dept": "Marketing"
+    }
+  },
+  {
+    "chunk_id": "hr_5004c8e4",
+    "text": "Employee Information:\nFull Name: Arjun Patel\nEmployee ID: FINEMP1098\nRole: Risk Analyst\nDepartment: Risk\nEmail: arjun.patel@fintechco.com\nLocation: Jaipur\nDate of Birth: 1994-01-29\nDate of Joining: 2018-11-26\nManager ID: FINEMP1004\nSalary: ₹1,521,060.31\nLeave Balance: 19 days\nLeaves Taken: 9 days\nAttendance: 92.26%\nPerformance Rating: 4/5\nLast Review Date: 2024-08-06\n\nThis employee Arjun Patel works as a Risk Analyst in the Risk department, located in Jaipur. They joined the company on 2018-11-26 and report to manager FINEMP1004. Their current performance rating is 4 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Arjun Patel (FINEMP1098)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 583,
+      "employee_id": "FINEMP1098",
+      "employee_name": "Arjun Patel",
+      "employee_role": "Risk Analyst",
+      "employee_dept": "Risk"
+    }
+  },
+  {
+    "chunk_id": "hr_85a07115",
+    "text": "Employee Information:\nFull Name: Shaurya Chowdhury\nEmployee ID: FINEMP1099\nRole: DevOps Engineer\nDepartment: Technology\nEmail: shaurya.chowdhury@fintechco.com\nLocation: Mumbai\nDate of Birth: 1996-11-20\nDate of Joining: 2020-07-28\nManager ID: FINEMP1008\nSalary: ₹586,137.55\nLeave Balance: 12 days\nLeaves Taken: 3 days\nAttendance: 95.52%\nPerformance Rating: 3/5\nLast Review Date: 2024-11-09\n\nThis employee Shaurya Chowdhury works as a DevOps Engineer in the Technology department, located in Mumbai. They joined the company on 2020-07-28 and report to manager FINEMP1008. Their current performance rating is 3 out of 5.",
+    "metadata": {
+      "source_document": "hr_data.csv",
+      "section_title": "Employee: Shaurya Chowdhury (FINEMP1099)",
+      "department": "hr",
+      "allowed_roles": [
+        "hr",
+        "admin"
+      ],
+      "token_length": 617,
+      "employee_id": "FINEMP1099",
+      "employee_name": "Shaurya Chowdhury",
+      "employee_role": "DevOps Engineer",
+      "employee_dept": "Technology"
+    }
+  }
+]
