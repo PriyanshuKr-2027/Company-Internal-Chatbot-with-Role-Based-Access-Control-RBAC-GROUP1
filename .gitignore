@@ -1,4 +1,35 @@
 # Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment variables (CRITICAL - contains API keys!)
+.env
+.env.local
+.env.*.local
+
+# Data files
 processing/embedded_chunks.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+backend/chatbot.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Vector store (large binary files)
+vectorstore/chroma/*.bin

@@ -12,14 +12,21 @@ OUTPUT_FILE = os.path.join(script_dir, "embedded_chunks.json")
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     chunks = json.load(f)
 
-# Load embedding model
+# Load embedding model with optimizations
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 embedded_chunks = []
 
-for chunk in chunks:
+# Batch process for better efficiency
+print(f"Processing {len(chunks)} chunks...")
+
+for i, chunk in enumerate(chunks, 1):
     text = chunk["text"]
-    embedding = model.encode(text).tolist()
+    # Use normalize_embeddings=True for consistent cosine similarity
+    embedding = model.encode(text, normalize_embeddings=True).tolist()
+    
+    if i % 20 == 0:
+        print(f"Processed {i}/{len(chunks)} chunks...")
 
     embedded_chunks.append({
         "chunk_id": chunk["chunk_id"],

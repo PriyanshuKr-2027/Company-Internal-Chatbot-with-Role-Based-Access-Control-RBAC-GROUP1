@@ -40,10 +40,16 @@ def run_benchmark():
 
     rows = []
     for role, qs in QUERIES.items():
-        role_key = f"role_{role}"
+        # Map role to correct ChromaDB filter key
+        if role == "employee":
+            role_key = "role_general"  # Employee role uses role_general flag
+        else:
+            role_key = f"role_{role}"
+        
         for query in qs:
             start = time.perf_counter()
-            embedding = model.encode(query, normalize_embeddings=False).tolist()
+            # Use normalize_embeddings=True for consistent similarity calculation
+            embedding = model.encode(query, normalize_embeddings=True).tolist()
             mid = time.perf_counter()
             results = collection.query(
                 query_embeddings=[embedding],

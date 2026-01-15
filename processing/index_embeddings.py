@@ -40,11 +40,7 @@ skipped_count = 0
 indexed_count = 0
 
 for chunk in chunks:
-    # Skip finance department chunks
-    if chunk["metadata"]["department"] == "finance":
-        skipped_count += 1
-        continue
-    
+    # Index all departments including finance
     documents.append(chunk["text"])
     ids.append(chunk["chunk_id"])
     
@@ -57,8 +53,10 @@ for chunk in chunks:
         "section_title": meta["section_title"],
         "allowed_roles": ",".join(meta["allowed_roles"]),
         "token_length": str(meta["token_length"]),
+        "role_finance": "finance" in meta["allowed_roles"],
         "role_engineering": "engineering" in meta["allowed_roles"],
         "role_marketing": "marketing" in meta["allowed_roles"],
+        "role_hr": "hr" in meta["allowed_roles"],
         "role_general": "general" in meta["allowed_roles"] or "employee" in meta["allowed_roles"],
         "role_admin": "admin" in meta["allowed_roles"]
     })
@@ -82,7 +80,6 @@ collection.add(
 
 print(f"\n✅ Embeddings indexed successfully!")
 print(f"📦 Total vectors in collection: {collection.count()}")
-print(f"⏭️  Finance vectors excluded: {skipped_count}")
 
 # Show statistics
 dept_stats = {}
