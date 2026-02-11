@@ -1,79 +1,73 @@
-"""LLM Engine using OpenRouter API"""
-
+import json
 import os
+import time
+from typing import Optional
 import requests
-from typing import Optional, List, Dict
-
 class LLMEngine:
-    """Interface to OpenRouter API for LLM calls"""
-    
-    def __init__(self, api_key: Optional[str] = None, model: str = "mistral-7b"):
-        """
-        Initialize LLM Engine
-        
-        Args:
-            api_key: OpenRouter API key (or use OPENROUTER_API_KEY env var)
-            model: Model to use (mistral-7b, mixtral-8x7b, neural-chat-7b, llama-2-7b)
-        """
+    """
+    Minimal OpenRouter client using the provided request format.
+    Includes retry logic with exponential backoff for rate limiting.
+    """
+
+    def __init__(self, api_key: Optional[str] = None, model: str = "google/gemma-3n-e2b-it:free"):
         self.api_key = api_key or os.getenv("OPENROUTER_API_KEY")
         if not self.api_key:
-            raise ValueError("OpenRouter API key not provided. Set OPENROUTER_API_KEY env var or pass api_key parameter")
-        
-        # Map friendly names to OpenRouter model IDs (using :free suffix for free tier)
-        self.model_map = {
-            "mistral-7b": "mistralai/mistral-7b-instruct:free",
-        }
-        
-        self.model = self.model_map.get(model, model)  # Support both friendly names and full model IDs
+            raise ValueError("OpenRouter API key not provided")
+        self.model = model
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
-        
-    def generate(self, prompt: str, max_tokens: int = 500, temperature: float = 0.7) -> str:
-        """
-        Generate text using LLM
-        
-        Args:
-            prompt: Input prompt
-            max_tokens: Maximum tokens in response
-            temperature: Creativity level (0=deterministic, 1=creative)
-            
-        Returns:
-            Generated text response
-        """
+        self.max_retries = 3
+        self.base_wait_time = 2  # Start with 2 seconds
+
+    def generate(self, prompt: str, max_tokens: int = 256, temperature: float = 0.7) -> str:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
+            "HTTP-Referer": "http://localhost:8000",
+            "X-Title": "Company Internal Chatbot",
         }
-        
-        data = {
+
+        payload = {
             "model": self.model,
             "messages": [
-                {"role": "user", "content": prompt}
+                {"role": "user", "content": prompt},
             ],
-            "temperature": temperature,
             "max_tokens": max_tokens,
+            "temperature": temperature,
         }
-        
-        try:
-            response = requests.post(self.api_url, headers=headers, json=data, timeout=30)
-            response.raise_for_status()
-            
-            result = response.json()
-            if "choices" in result and len(result["choices"]) > 0:
-                return result["choices"][0]["message"]["content"]
-            else:
-                return "Error: No response from model"
+
+        last_error = None
+        for attempt in range(self.max_retries):
+            try:
+                response = requests.post(
+                    url=self.api_url,
+                    headers=headers,
+                    data=json.dumps(payload),
+                    timeout=45,
+                )
                 
-        except requests.exceptions.RequestException as e:
-            return f"Error calling OpenRouter API: {str(e)}"
-    
-    def list_available_models(self) -> Dict[str, str]:
-        """List available model aliases"""
-        return self.model_map
-    
-    def test_connection(self) -> bool:
-        """Test if API key is valid"""
-        try:
-            response = self.generate("Hi", max_tokens=10)
-            return "Error" not in response
-        except Exception:
-            return False
+                # Handle 429 rate limit with exponential backoff
+                if response.status_code == 429:
+                    if attempt < self.max_retries - 1:
+                        wait_time = self.base_wait_time * (2 ** attempt)
+                        print(f"Rate limited (429). Retrying in {wait_time}s... (attempt {attempt + 1}/{self.max_retries})")
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        detail = response.text
+                        raise RuntimeError(f"OpenRouter error: 429 Too Many Requests | {detail}")
+                
+                response.raise_for_status()
+                result = response.json()
+                if "choices" in result and result["choices"]:
+                    return result["choices"][0]["message"]["content"]
+                raise RuntimeError("No choices returned from OpenRouter response")
+                
+            except requests.HTTPError as e:
+                detail = response.text
+                last_error = RuntimeError(f"OpenRouter error: {e} | {detail}")
+                if response.status_code != 429:  # Don't retry on other errors
+                    raise last_error
+        
+        if last_error:
+            raise last_error
+        raise RuntimeError("Max retries exceeded")

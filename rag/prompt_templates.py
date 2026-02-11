@@ -166,6 +166,69 @@ ANSWER:"""
         return prompt
     
     @staticmethod
+    def build_hr_prompt(query: str, context: str, is_aggregation: bool = False) -> str:
+        """
+        Build prompt for HR/employee queries (headcount, listings, details)
+        
+        Args:
+            query: HR question
+            context: Formatted employee information
+            is_aggregation: True for count/aggregation queries
+            
+        Returns:
+            Prompt optimized for HR queries
+        """
+        if is_aggregation:
+            prompt = f"""{PromptTemplates.SYSTEM_PROMPT}
+
+EMPLOYEE DATA:
+{context}
+
+USER QUESTION: {query}
+
+INSTRUCTIONS:
+- Count the employees or provide aggregated data as requested
+- Show the total count clearly
+- Group by department/role if relevant
+- Format as: "There are X employees in [department]"
+- Provide specific numbers and details
+
+ANSWER:"""
+        else:
+            prompt = f"""{PromptTemplates.SYSTEM_PROMPT}
+
+EMPLOYEE DATA:
+{context}
+
+USER QUESTION: {query}
+
+INSTRUCTIONS:
+- List employees matching the criteria
+- Format as a numbered list with Name, Role, and Department for each employee
+- Include manager information if available
+- Sort alphabetically by last name
+- Show total count of matching employees
+
+ANSWER:"""
+        
+        return prompt
+    
+    @staticmethod
+    def is_hr_aggregation_query(query: str) -> bool:
+        """
+        Detect if HR query is asking for aggregation (count/total) vs listing
+        
+        Args:
+            query: User question
+            
+        Returns:
+            True if aggregation query, False if listing query
+        """
+        query_lower = query.lower()
+        aggregation_words = ['how many', 'count', 'total', 'number of', 'how much']
+        return any(word in query_lower for word in aggregation_words)
+    
+    @staticmethod
     def detect_query_type(query: str) -> str:
         """
         Detect the type of query to select appropriate template
@@ -174,9 +237,15 @@ ANSWER:"""
             query: User question
             
         Returns:
-            Query type: 'comparison', 'summary', 'factual', or 'general'
+            Query type: 'hr', 'comparison', 'summary', 'factual', or 'general'
         """
         query_lower = query.lower()
+        
+        # HR indicators (employees, departments, headcount, etc.)
+        hr_words = ['employee', 'employees', 'department', 'members', 'headcount', 'team', 'manager', 
+                   'salary', 'performance', 'hr', 'human resources', 'people', 'staff']
+        if any(word in query_lower for word in hr_words):
+            return 'hr'
         
         # Comparison indicators
         comparison_words = ['compare', 'difference', 'versus', 'vs', 'contrast', 'better', 'worse']
@@ -210,7 +279,10 @@ ANSWER:"""
         """
         query_type = PromptTemplates.detect_query_type(query)
         
-        if query_type == 'comparison':
+        if query_type == 'hr':
+            is_agg = PromptTemplates.is_hr_aggregation_query(query)
+            return PromptTemplates.build_hr_prompt(query, context, is_aggregation=is_agg)
+        elif query_type == 'comparison':
             return PromptTemplates.build_comparison_prompt(query, context)
         elif query_type == 'summary':
             return PromptTemplates.build_summary_prompt(query, context)

@@ -37,7 +37,8 @@ class ConfidenceScorer:
     @staticmethod
     def calculate_confidence(distances: List[float], 
                            num_results: int,
-                           min_expected_results: int = 3) -> Dict[str, Any]:
+                           min_expected_results: int = 3,
+                           is_hr_query: bool = False) -> Dict[str, Any]:
         """
         Calculate confidence score and level
         
@@ -45,6 +46,7 @@ class ConfidenceScorer:
             distances: Distance scores from search
             num_results: Number of results returned
             min_expected_results: Minimum expected results for high confidence
+            is_hr_query: True if this is an HR/employee query (uses lower threshold)
             
         Returns:
             Dict with confidence score, level, and reasoning
@@ -60,9 +62,11 @@ class ConfidenceScorer:
         relevance_score = ConfidenceScorer.calculate_relevance_score(distances)
         
         # Adjust based on number of results
+        # HR queries are more permissive: single department = valid result
+        min_results_for_hr = 1 if is_hr_query else min_expected_results
         result_penalty = 1.0
-        if num_results < min_expected_results:
-            result_penalty = num_results / min_expected_results
+        if num_results < min_results_for_hr:
+            result_penalty = num_results / min_results_for_hr
         
         # Final confidence score
         confidence_score = relevance_score * result_penalty
@@ -70,10 +74,10 @@ class ConfidenceScorer:
         # Determine confidence level
         if confidence_score >= ConfidenceScorer.HIGH_CONFIDENCE:
             level = "HIGH"
-            reasoning = "Multiple highly relevant documents found"
+            reasoning = "Multiple highly relevant documents found" if not is_hr_query else "Accurate employee data retrieved"
         elif confidence_score >= ConfidenceScorer.MEDIUM_CONFIDENCE:
             level = "MEDIUM"
-            reasoning = "Relevant documents found with moderate similarity"
+            reasoning = "Relevant documents found with moderate similarity" if not is_hr_query else "Employee data retrieved"
         elif confidence_score >= ConfidenceScorer.LOW_CONFIDENCE:
             level = "LOW"
             reasoning = "Limited relevant information available"

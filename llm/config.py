@@ -9,8 +9,8 @@ load_dotenv()
 # OpenRouter Configuration
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
-# Model Selection (using mistral-7b-instruct:free from OpenRouter)
-DEFAULT_LLM_MODEL = os.getenv("DEFAULT_LLM_MODEL", "mistral-7b")
+# Model Selection (using deepseek-r1-0528:free from OpenRouter)
+DEFAULT_LLM_MODEL = os.getenv("DEFAULT_LLM_MODEL", "deepseek-r1-0528")
 
 # Model Configuration
 LLM_CONFIG = {
@@ -34,7 +34,7 @@ RERANKING_CONFIG = {
 
 # Available Models Mapping (using :free suffix for free tier)
 AVAILABLE_MODELS = {
-    "mistral-7b": "mistralai/mistral-7b-instruct:free",
+    "deepseek-r1-0528": "deepseek/deepseek-r1-0528:free",
 }
 
 # OpenRouter Endpoint (corrected to .ai domain)

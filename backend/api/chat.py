@@ -5,7 +5,6 @@ from sqlalchemy.orm import Session
 from backend.database.database import get_db, User, AuditLog
 from backend.database.schemas import ChatRequest, ChatResponse
 from backend.auth.dependencies import get_current_active_user
-from rag.rag_pipeline import RAGPipeline
 from dotenv import load_dotenv
 import os
 
@@ -17,11 +16,16 @@ router = APIRouter()
 # Initialize RAG pipeline (singleton)
 _rag_pipeline = None
 
-def get_rag_pipeline() -> RAGPipeline:
+def get_rag_pipeline():
     """Get or create RAG pipeline instance"""
     global _rag_pipeline
     if _rag_pipeline is None:
-        _rag_pipeline = RAGPipeline()
+        try:
+            from rag.rag_pipeline import RAGPipeline
+            _rag_pipeline = RAGPipeline()
+        except Exception as e:
+            print(f"Warning: RAG Pipeline initialization error (will retry on first query): {e}")
+            return None
     return _rag_pipeline
 
 
@@ -45,6 +49,12 @@ async def chat_query(
     try:
         # Get RAG pipeline
         pipeline = get_rag_pipeline()
+        
+        if pipeline is None:
+            raise HTTPException(
+                status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                detail="RAG Pipeline not initialized. Please try again."
+            )
         
         # Query with user's role
         result = pipeline.query(
