@@ -279,7 +279,7 @@ def create_presentation():
             y_pos += 1.3
     
     def add_architecture_slide():
-        """Slide 4: System Architecture"""
+        """Slide 4: System Architecture - Visual Flowchart"""
         slide = prs.slides.add_slide(prs.slide_layouts[6])
         
         # Background
@@ -298,32 +298,45 @@ def create_presentation():
         p.font.color.rgb = COLORS['primary']
         p.alignment = PP_ALIGN.CENTER
         
-        # Flow diagram
+        # Main flow components with arrows
         components = [
-            ("User Query", 1, COLORS['primary']),
-            ("Authentication", 2.2, COLORS['secondary']),
-            ("RBAC Filter", 3.4, COLORS['orange']),
-            ("Semantic Search", 4.6, COLORS['success']),
-            ("LLM Generation", 5.8, COLORS['primary']),
-            ("Response", 7, COLORS['accent']),
+            ("User\nQuery", 0.8, 2.5, COLORS['primary'], "🟦"),
+            ("Auth", 2.2, 2.5, COLORS['secondary'], "🔐"),
+            ("RBAC\nFilter", 3.5, 2.5, COLORS['orange'], "🛡️"),
+            ("Semantic\nSearch", 4.9, 2.5, COLORS['success'], "🔍"),
+            ("Context\nBuilder", 6.3, 2.5, COLORS['purple'], "📋"),
+            ("LLM\nGenerate", 7.6, 2.5, COLORS['primary'], "🤖"),
+            ("Response", 9, 2.5, COLORS['accent'], "✨"),
         ]
         
-        y_center = 3.5
-        for comp_name, x_pos, color in components:
-            # Component box
+        # Draw components
+        for idx, (comp_name, x_pos, y_pos, color, emoji) in enumerate(components):
+            # Component box with gradient effect
             box = slide.shapes.add_shape(
                 MSO_SHAPE.ROUNDED_RECTANGLE, 
-                Inches(x_pos), Inches(y_center - 0.4), 
-                Inches(1), Inches(0.8)
+                Inches(x_pos), Inches(y_pos), 
+                Inches(1.2), Inches(1)
             )
             box.fill.solid()
             box.fill.fore_color.rgb = color
             box.line.fill.background()
+            box.shadow.inherit = False
+            
+            # Icon emoji
+            icon_box = slide.shapes.add_textbox(
+                Inches(x_pos), Inches(y_pos + 0.1), 
+                Inches(1.2), Inches(0.4)
+            )
+            icon_frame = icon_box.text_frame
+            p = icon_frame.paragraphs[0]
+            p.text = emoji
+            p.font.size = Pt(24)
+            p.alignment = PP_ALIGN.CENTER
             
             # Component text
             text_box = slide.shapes.add_textbox(
-                Inches(x_pos), Inches(y_center - 0.4), 
-                Inches(1), Inches(0.8)
+                Inches(x_pos), Inches(y_pos + 0.5), 
+                Inches(1.2), Inches(0.5)
             )
             text_frame = text_box.text_frame
             text_frame.word_wrap = True
@@ -331,27 +344,75 @@ def create_presentation():
             
             p = text_frame.paragraphs[0]
             p.text = comp_name
-            p.font.size = Pt(10)
+            p.font.size = Pt(9)
             p.font.bold = True
             p.font.color.rgb = COLORS['light']
             p.alignment = PP_ALIGN.CENTER
+            
+            # Draw arrow to next component
+            if idx < len(components) - 1:
+                from pptx.shapes.connector import Connector
+                from pptx.enum.shapes import MSO_CONNECTOR
+                
+                # Arrow line
+                arrow = slide.shapes.add_shape(
+                    MSO_SHAPE.RIGHT_ARROW,
+                    Inches(x_pos + 1.2), Inches(y_pos + 0.45),
+                    Inches(0.15), Inches(0.1)
+                )
+                arrow.fill.solid()
+                arrow.fill.fore_color.rgb = color
+                arrow.line.fill.background()
         
-        # Sub-components
-        subtext = [
-            ("ChromaDB\n135 docs", 4.6, 5.3),
-            ("Mistral 7B\nOpenRouter", 5.8, 5.3),
+        # Sub-components / databases
+        db_components = [
+            ("ChromaDB\n135 documents\n384 dims", 4.9, 4.2, COLORS['success']),
+            ("Mistral 7B\nOpenRouter API", 7.6, 4.2, COLORS['primary']),
+            ("SQLite\nUser DB", 2.2, 4.2, COLORS['secondary']),
         ]
         
-        for text, x, y in subtext:
-            text_box = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(1), Inches(0.6))
-            text_frame = text_box.text_frame
-            text_frame.word_wrap = True
+        for text, x, y, color in db_components:
+            # Database cylinder shape (simulated with rounded rectangle)
+            db_box = slide.shapes.add_shape(
+                MSO_SHAPE.ROUNDED_RECTANGLE,
+                Inches(x), Inches(y),
+                Inches(1.2), Inches(0.8)
+            )
+            db_box.fill.solid()
+            db_box.fill.fore_color.rgb = RGBColor(255, 255, 255)
+            db_box.line.color.rgb = color
+            db_box.line.width = Pt(2)
             
-            p = text_frame.paragraphs[0]
+            # Database text
+            db_text = slide.shapes.add_textbox(Inches(x + 0.1), Inches(y + 0.15), Inches(1), Inches(0.5))
+            db_frame = db_text.text_frame
+            db_frame.word_wrap = True
+            
+            p = db_frame.paragraphs[0]
             p.text = text
-            p.font.size = Pt(9)
+            p.font.size = Pt(8)
             p.font.color.rgb = COLORS['text']
             p.alignment = PP_ALIGN.CENTER
+            
+            # Connection line from main component to database
+            line = slide.shapes.add_shape(
+                MSO_SHAPE.RECTANGLE,
+                Inches(x + 0.6), Inches(y - 0.7),
+                Inches(0.02), Inches(0.7)
+            )
+            line.fill.solid()
+            line.fill.fore_color.rgb = color
+            line.line.fill.background()
+        
+        # Performance note
+        perf_box = slide.shapes.add_textbox(Inches(3), Inches(5.5), Inches(4), Inches(0.6))
+        perf_frame = perf_box.text_frame
+        p = perf_frame.paragraphs[0]
+        p.text = "⚡ ~20ms search  |  ~1.5-3.5s total response time"
+        p.font.size = Pt(14)
+        p.font.bold = True
+        p.font.color.rgb = COLORS['orange']
+        p.alignment = PP_ALIGN.CENTER
     
     def add_tech_stack_slide():
         """Slide 5: Technology Stack"""
@@ -1084,7 +1145,9 @@ def create_presentation():
     add_thank_you_slide()
     
     # Save presentation
-    output_file = "Role_Based_Chatbot_Presentation.pptx"
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = f"Role_Based_Chatbot_Presentation_{timestamp}.pptx"
     prs.save(output_file)
     print(f"\n✅ Presentation created successfully: {output_file}")
     print(f"📊 Total slides: {len(prs.slides)}")

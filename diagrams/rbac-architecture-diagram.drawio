@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="rbac-architecture" name="RBAC Architecture">
+        <mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- Title -->
+                <mxCell id="title" value="ROLE-BASED ACCESS CONTROL ARCHITECTURE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#4361EE;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="30" width="700" height="40" as="geometry"/>
+                </mxCell>
+                
+                <!-- User/Authentication Layer -->
+                <mxCell id="user-layer" value="USER AUTHENTICATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF5CC;strokeColor=#F6C343;fontSize=16;fontStyle=1;fontColor=#2D3748;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="100" width="200" height="50" as="geometry"/>
+                </mxCell>
+                
+                <!-- Role Check -->
+                <mxCell id="role-check" value="ROLE VERIFICATION" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ED8936;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="200" width="150" height="150" as="geometry"/>
+                </mxCell>
+                
+                <!-- Department Boxes -->
+                <mxCell id="finance" value="💰 FINANCE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#48BB78;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="400" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="finance-docs" value="• Financial Reports\n• Budget Docs\n• Quarterly Statements" style="text;html=1;strokeColor=#48BB78;fillColor=#F0FFF4;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#2D3748;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="470" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="hr" value="👥 HR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF4785;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="400" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hr-docs" value="• Employee Data\n• Payroll Info\n• HR Policies" style="text;html=1;strokeColor=#FF4785;fillColor=#FFF5F7;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#2D3748;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="470" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="marketing" value="📈 MARKETING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4361EE;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="400" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="marketing-docs" value="• Marketing Reports\n• Campaign Data\n• Market Research" style="text;html=1;strokeColor=#4361EE;fillColor=#EBF4FF;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#2D3748;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="470" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="engineering" value="⚙️ ENGINEERING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ED8936;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="400" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="eng-docs" value="• Technical Docs\n• Architecture Plans\n• API Documentation" style="text;html=1;strokeColor=#ED8936;fillColor=#FFF7ED;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#2D3748;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="470" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="general" value="📋 GENERAL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3AFFD9;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#2D3748;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="400" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="general-docs" value="• Employee Handbook\n• Company Policies\n• Public Resources" style="text;html=1;strokeColor=#3AFFD9;fillColor=#F0FFFC;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#2D3748;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="470" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Arrows from role check to departments -->
+                <mxCell id="arrow-finance" value="" style="endArrow=classic;html=1;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#48BB78;exitPerimeter=0;" edge="1" parent="1" source="role-check" target="finance">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow-hr" value="" style="endArrow=classic;html=1;exitX=0.4;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF4785;exitPerimeter=0;" edge="1" parent="1" source="role-check" target="hr">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow-marketing" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#4361EE;" edge="1" parent="1" source="role-check" target="marketing">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow-eng" value="" style="endArrow=classic;html=1;exitX=0.6;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#ED8936;exitPerimeter=0;" edge="1" parent="1" source="role-check" target="engineering">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="arrow-general" value="" style="endArrow=classic;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#3AFFD9;exitPerimeter=0;" edge="1" parent="1" source="role-check" target="general">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                
+                <!-- Arrow from user to role check -->
+                <mxCell id="arrow-user" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#F6C343;" edge="1" parent="1" source="user-layer" target="role-check">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                
+                <!-- Security note -->
+                <mxCell id="security-note" value="🔒 Granular permission management ensures users access only role-appropriate documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A202C;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="600" width="600" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
